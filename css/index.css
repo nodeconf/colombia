@@ -7,13 +7,18 @@
   padding: 0 5px;
   padding-top: 15px;
 }
-
-.nodeconf{
-  margin-top: 100px;
-  margin-right: 40%;
-}
 @media (max-width: 30em) {
   .stamp_co {
     margin-top: 40px;
   }
+  .information {
+    border-left: 0;
+  }
+  .details {
+    flex-wrap: wrap;
+  }
+  .sub-title {
+    align-items: flex-start;
+    flex-direction: column;
+}
 }
