@@ -12,3 +12,8 @@
   margin-top: 100px;
   margin-right: 40%;
 }
+@media (max-width: 30em) {
+  .stamp_co {
+    margin-top: 40px;
+  }
+}
