@@ -660,6 +660,11 @@ button,
   width: 100%;
 }
 
+#mc_embed_signup div.mce_inline_error {
+  background-color: #f7e9d1 !important;
+  color: #eb2025 !important;
+}
+
 .col {
   float: left;
   box-sizing: border-box;
