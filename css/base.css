@@ -541,7 +541,7 @@ button,
 /* Basscss Grid */
 
 .container {
-  background-color: #0076df;
+  background-color: #3f853e;
   padding: 2rem 4rem;
   display: flex;
   align-items: center;
@@ -593,7 +593,7 @@ button,
 }
 
 .signup {
-  background: #0076dfe6;
+  background: #3f853ee6;
   padding: 2em 3em;
   margin-top: 50px;
 }
