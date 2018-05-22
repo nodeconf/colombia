@@ -1,7 +1,11 @@
 .stamp_co {
-  margin-top: -19%;
-  height: 217px;
-  margin-left: 44%;
+  margin-top: -15%;
+  height: 220px;
+  /* margin-left: -30%; */
+  background: #f7e9d0;
+  border-radius: 50%;
+  padding: 0 5px;
+  padding-top: 15px;
 }
 
 .nodeconf{

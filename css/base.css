@@ -137,13 +137,12 @@ h6,
 
 button,
 .button {
-  font-size: inherit;
-  font-weight: bold;
+  font-size: 0.9rem;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
   box-sizing: border-box;
-  line-height: 1.125rem;
+  line-height: 1rem;
   padding: .5rem 1rem;
   margin: 0;
   height: auto;
@@ -197,6 +196,17 @@ button,
 
 .clearfix:after {
   clear: both;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  color: black;
+  min-height: 40px;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 .left {
@@ -521,9 +531,77 @@ button,
 /* Basscss Grid */
 
 .container {
-  max-width: 50em;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #04292d;
+  padding: 2rem 4rem;
+}
+
+.header {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  color: #f2dc1a;
+  background: linear-gradient(#405766, #5798A6);
+  background-image: url(../img/medellin.jpg);
+  background-size: cover;
+  background-position: bottom;
+  text-transform: uppercase;
+  min-height: 400px;
+}
+
+.details {
+  display: flex;
+  flex-shrink: 1;
+  max-width: 960px;
+  color: #fff;
+}
+
+.speakers {
+  padding: 0 2em;
+}
+
+.sponsors {
+  padding: 0 2em;
+  border-left: 1px dashed #f2dc1a;
+}
+
+.speakers h2, .sponsors h2 {
+  color: #f2dc1a;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.speakers p, .sponsors p {
+  line-height: 1.4em;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.signup {
+  background: #03282ce6;
+  padding: 2em 3em;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 1.6rem;
+}
+
+.sub-title {
+  margin-top: 0;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dashed #f2dc1a;
+  border-bottom: 1px dashed #f2dc1a;
+  padding: 1.5rem 0;
+}
+
+.details span {
+  margin: 0 0.5rem;
 }
 
 .col {
@@ -787,6 +865,9 @@ button,
 body {
   color: #222;
   background-color: white;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 a {
@@ -812,12 +893,13 @@ hr {
 }
 
 .button {
-  color: white;
-  background-color: #0076df ;
-  border-radius: 3px;
-  transition-duration: .05s;
-  transition-timing-function: ease-out;
-  transition-property: box-shadow, background-color;
+  display: inline-block;
+  color: #f2dc1a;
+  background: transparent;
+  border: 1px solid #f2dc1a;
+  padding: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -1135,7 +1217,7 @@ hr {
 }
 
 .bg-yellow {
-  background-color: #efcc00;
+  background-color: #f2dc1a;
 }
 
 .bg-orange {
@@ -1410,7 +1492,7 @@ a:hover:not(.sponsor, .logo) {
   ol,
   p,
   ul {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
