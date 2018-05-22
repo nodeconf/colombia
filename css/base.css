@@ -209,6 +209,16 @@ button,
   font-weight: bold;
 }
 
+.footer-icons {
+  display: flex;
+}
+
+.footer-icons a {
+  width: 20px;
+  color: #000000;
+  margin: 0 0.5rem;
+}
+
 .left {
   float: left;
 }
@@ -592,16 +602,59 @@ button,
   margin-top: 0;
 }
 
-.details {
+.signup .details {
   display: flex;
   justify-content: space-between;
   border-top: 1px dashed #f2dc1a;
   border-bottom: 1px dashed #f2dc1a;
-  padding: 1.5rem 0;
+  padding: 0.8rem 0;
 }
 
-.details span {
+.signup .details a {
+  color: #f2dc1a;
+  width: 15px;
   margin: 0 0.5rem;
+}
+
+.signup .details span {
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.signup .details .social-icons {
+  display: flex;
+}
+
+#mc_embed_signup label {
+  text-transform: none;
+  display: block;
+  margin: 12px 0;
+}
+
+.signup-form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mc-field-group {
+  flex-grow: 1;
+  font-size: 0.9rem;
+}
+
+#mc_embed_signup input[name="subscribe"] {
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #f2dc1a;
+  color: #03282b;
+  width: auto;
+}
+
+#mc_embed_signup input {
+  border: none;
+  height: 3em;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .col {
