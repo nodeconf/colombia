@@ -544,7 +544,7 @@ button,
   background-color: #0076df;
   padding: 2rem 4rem;
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 
