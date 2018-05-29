@@ -592,6 +592,11 @@ button,
   font-size: 0.8rem;
 }
 
+.information a {
+  color: #f2dc1a;
+  font-size: 12px;
+}
+
 .signup {
   background: #3f853ee6;
   padding: 2em 3em;
