@@ -736,6 +736,9 @@ button,
   width: 100%;
 }
 @media (max-width: 30em) {
+  .separator {
+    display: none;
+  }
   .xs-col {
     float: left;
     box-sizing: border-box;
