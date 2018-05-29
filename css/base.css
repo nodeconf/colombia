@@ -592,6 +592,15 @@ button,
   font-size: 0.8rem;
 }
 
+.information a {
+  color: #f2dc1a;
+  font-size: 12px;
+}
+
+.code-of-conduct {
+  min-width: 110px;
+}
+
 .signup {
   background: #3f853ee6;
   padding: 2em 3em;
@@ -727,6 +736,9 @@ button,
   width: 100%;
 }
 @media (max-width: 30em) {
+  .separator {
+    display: none;
+  }
   .xs-col {
     float: left;
     box-sizing: border-box;
