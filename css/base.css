@@ -597,6 +597,10 @@ button,
   font-size: 12px;
 }
 
+.code-of-conduct {
+  min-width: 110px;
+}
+
 .signup {
   background: #3f853ee6;
   padding: 2em 3em;
