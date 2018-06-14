@@ -598,7 +598,8 @@ button,
 }
 
 .code-of-conduct {
-  min-width: 110px;
+  min-width: 120px;
+  font-size: 12px;
 }
 
 .signup {
