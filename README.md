@@ -9,4 +9,5 @@ More information coming soon
 - Adrián Estrada - [@edsadr](https://github.com/edsadr)
 - Alejandro Estrada - [@estrada9166](https://github.com/estrada9166)
 - Sebastián Vélez - [@jvelezpo](https://github.com/jvelezpo)
+- Diego R. Baquero - [@DiegoRBaquero](https://github.com/DiegoRBaquero)
 - Julián Duque - [@julianduque](https://github.com/julianduque)
