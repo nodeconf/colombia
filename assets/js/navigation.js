@@ -34,16 +34,13 @@ $(window).scroll(function () {
     }
   }
 
-  if ($(window).width() > 991) {
-    $(".stay-tuned-title").removeClass("text-align-center");
-    $(".stay-tuned-info").removeClass("text-align-center");
-    $(".title-ticket-section").addClass("padding-top-30");
+  if ($(window).width() > 479) {
+    $(".media-partners").addClass("font-size-39");
   } else {
-    $(".stay-tuned-title").addClass("text-align-center");
-    $(".stay-tuned-info").addClass("text-align-center");
-    $(".title-ticket-section").removeClass("padding-top-30");
-
+    $(".media-partners").addClass("font-size-23");
+    $(".media-partners").removeClass("font-size-39");
   }
+
   // Get the current vertical position of the scroll bar
   position = $(this).scrollTop();
   $('#navigation li a[href^="#"]').each(function () {

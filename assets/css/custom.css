@@ -334,6 +334,12 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
 .padding-top-30 {
     padding-top: 30%;
 }
+.font-size-23 {
+    font-size: 23px;
+}
+.font-size-39 {
+    font-size: 39px;
+}
 
 
 /* Media query */
