@@ -6,13 +6,13 @@
 
 Template Name:      Jessica - Nutritionist Website Template
 Version:            1.0.0
-Created Date:       9/08/2017 
-Created by :        https://easetemplate.com/ 
+Created Date:       9/08/2017
+Created by :        https://easetemplate.com/
 
 ------------------------------------------------------------------
 [CSS Table of contents]
 
-1.  Body / Typography 
+1.  Body / Typography
 2.  Form Elements
 3.  Buttons
 4.  General / Elements
@@ -58,11 +58,11 @@ Created by :        https://easetemplate.com/
 ------------------------------------------------------------------*/
 
 /*-----------------------------------
-    1. Body / Typography 
+    1. Body / Typography
 -----------------------------------*/
 
-body { font-family: 'Nunito Sans', sans-serif; font-size: 18px; letter-spacing: 0px; color: #525652; font-weight: 400; line-height: 26px; }
-h1, h2, h3, h4, h5, h6 { font-weight: 700; color: #181c18; font-family: 'Nunito Sans', sans-serif; margin: 0px 0px 15px 0px; text-transform: uppercase; letter-spacing: 2px; }
+body { font-family: 'Nunito', sans-serif; font-size: 18px; letter-spacing: 0px; color: #525652; font-weight: 400; line-height: 26px; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; color: #181c18; font-family: 'Nunito', sans-serif; margin: 0px 0px 15px 0px; text-transform: uppercase; letter-spacing: 2px; }
 h1 { font-size: 26px; }
 h2 { font-size: 22px; line-height: 30px; }
 h3 { font-size: 20px; line-height: 34px; }
@@ -76,13 +76,13 @@ a { text-decoration: none; color: #181c18; -webkit-transition: all 0.3s; -moz-tr
 a:focus, a:hover { text-decoration: none; color: #52c75a; }
 .lead { font-size: 21px; font-weight: 300; line-height: 1.5; font-family: 'PT Serif', serif; color: #52c75a; margin-bottom: 30px; font-style: italic; }
 .blockquote { border-bottom: 1px solid #ededed; border-top: 1px solid #ededed; color: #181c18; }
-.blockquote-content p { font-family: 'Nunito Sans', sans-serif; color: #181c18; margin-bottom: 15px; margin-top: 15px; line-height: 1.6; font-weight: 400; font-size: 30px; }
+.blockquote-content p { font-family: 'Nunito', sans-serif; color: #181c18; margin-bottom: 15px; margin-top: 15px; line-height: 1.6; font-weight: 400; font-size: 30px; }
 .blocquote-author { }
 .blockquote-icon { font-size: 30px; color: #52c75a; font-family: FontAwesome; font-style: normal; float: left; margin-right: 15px; margin-top: 8px; }
 strong { color: #111; font-weight: 700; margin-right: 8px; }
 hr { border-bottom: 1px solid #ededed; margin-bottom: 40px; margin-top: 40px; }
 
-/*----------------------- 
+/*-----------------------
     2 Form Elements:
 -------------------------*/
 label { }
@@ -120,9 +120,9 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; margin: 0; padding: 0 4px 5px; }
 
 /*-----------------------------------
-    3. Buttons 
+    3. Buttons
 -----------------------------------*/
-.btn { font-family: 'Nunito Sans', sans-serif; font-size: 12px; text-transform: uppercase; font-weight: 700; padding: 12px 22px; margin-bottom: 4px; letter-spacing: 2.2px; border-radius: 0px; border: 2px solid #555555; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; word-wrap: break-word; white-space: normal !important; }
+.btn { font-family: 'Nunito', sans-serif; font-size: 12px; text-transform: uppercase; font-weight: 700; padding: 12px 22px; margin-bottom: 4px; letter-spacing: 2.2px; border-radius: 0px; border: 2px solid #555555; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; word-wrap: break-word; white-space: normal !important; }
 .btn-primary { background-color: transparent; border: 2px solid #52c75a; color: #52c75a; }
 .btn-primary:hover { background-color: #52c75a; border: 2px solid #52c75a; color: #fff; }
 .btn-primary.focus, .btn-primary:focus { background-color: #52c75a; border: 2px solid #52c75a; color: #fff; }
@@ -137,10 +137,10 @@ a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 button.btn { margin-right: -1px; }
 
 /*-----------------------------------
-    4. General / Elements 
+    4. General / Elements
 -----------------------------------*/
 
-/*----------------------- 
+/*-----------------------
     4.1 Section space :
 -------------------------*/
 
@@ -224,7 +224,7 @@ button.btn { margin-right: -1px; }
 .pdtb40 { padding-bottom: 40px; padding-top: 40px; }
 
 /*--------------------------------
-4.4 Background & Block color 
+4.4 Background & Block color
 ----------------------------------*/
 .bg-light { background-color: #f9f9f9; }
 .bg-primary { background-color: #ffe62c; color: #fff; }
@@ -243,7 +243,7 @@ button.btn { margin-right: -1px; }
 .divider-line { }
 
 /*--------------------------------
-4.5 Features Block 
+4.5 Features Block
 ----------------------------------*/
 .feature-block { border: 1px solid #ededed; padding: 30px; margin-bottom: 30px; background-color: #fff; }
 .feature-text { }
@@ -263,11 +263,11 @@ button.btn { margin-right: -1px; }
 .chekbox li { padding-left: 25px; }
 
 /*--------------------------------
-4.7 Call to actions 
+4.7 Call to actions
 ----------------------------------*/
 .cta-section { background-color: #25aae1; padding-top: 40px; padding-bottom: 40px; color: #fff; text-align: center; }
 .cta-block { }
-.cta-text { font-size: 28px; font-style: italic; font-weight: 400; font-family: 'Nunito Sans', sans-serif; margin-bottom: 20px; }
+.cta-text { font-size: 28px; font-style: italic; font-weight: 400; font-family: 'Nunito', sans-serif; margin-bottom: 20px; }
 .cta-title { }
 .cta-btn { }
 .widget-cta-primary { background-color: #25aae1; padding: 30px; border-radius: 5px; color: #fff; margin-bottom: 30px; }
@@ -282,7 +282,7 @@ button.btn { margin-right: -1px; }
 .widget-cta-text { }
 
 /*--------------------------------
- 4.8 Image Hover Effect 
+ 4.8 Image Hover Effect
 ----------------------------------*/
 img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-radius: 0px; line-height: normal; vertical-align: middle; }
 .imghover { display: block; position: relative; max-width: 100%; }
@@ -294,7 +294,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 .imghover:hover::after { color: #fff; }
 
 /*--------------------------------
-4.9 Icon 
+4.9 Icon
 ----------------------------------*/
 .icon { }
 .icon-1x { font-size: 18px; }
@@ -310,11 +310,11 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 .icon-white { color: #fff; }
 
 /*--------------------------------
-5 Header / Navigations 
+5 Header / Navigations
 ----------------------------------*/
 
 /*--------------------
-    5.1 Header Regular 
+    5.1 Header Regular
    ----------------------*/
 
 .header-wrapper { z-index: 9; position: relative; padding-top: 25px; padding-bottom: 25px; background-color: #fff; border-bottom: 1px solid #eaeaea; }
@@ -331,13 +331,13 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button { margin: 0; padding: 0; border: 0; list-style: none; line-height: 1; display: block; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 #navigation:after, #navigation>ul:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 #navigation #menu-button { display: none; }
-#navigation { padding-top: 9px; font-family: 'Nunito Sans', sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+#navigation { padding-top: 9px; font-family: 'Nunito', sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 #navigation>ul>li { float: left; }
 #navigation.align-center>ul { font-size: 0; text-align: center; }
 #navigation.align-center>ul>li { display: inline-block; float: none; }
 #navigation.align-center ul ul { text-align: left; }
 #navigation.align-right>ul>li { float: right; }
-#navigation>ul>li>a { padding: 15px; font-size: 12px; color: #292f29; letter-spacing: 2px; text-decoration: none; font-weight: 700; text-transform: uppercase; }
+#navigation>ul>li>a { padding: 15px; font-size: 14px; color: #292f29; letter-spacing: 2px; text-decoration: none; font-weight: 900; text-transform: uppercase; }
 #navigation>ul>li:hover>a { color: #52c75a; background-color: transparent; }
 #navigation>ul>li.has-sub>a { padding-right: 32px; }
 
@@ -419,7 +419,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 .breadcrumb>li>a { color: #52c75a; }
 
 /*-----------------------------------
-    6. Slider 
+    6. Slider
 -------------------------------------*/
 .slider { margin-bottom: -30px; height: auto; }
 
@@ -460,7 +460,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 .ba-right-btn { }
 
 /*-----------------------------------
-8. Footer 
+8. Footer
 -------------------------------------*/
 .footer { background-color: #111111; padding-top: 60px; padding-bottom: 30px; color: #808080; font-weight: 400; }
 .footer-title { margin-bottom: 55px; color: #fff; }
@@ -479,7 +479,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 .tiny-footer { margin-top: 50px; font-size: 14px; color: #808080; text-align: center; }
 
 /*-----------------------------------
-9. Pages 
+9. Pages
 -------------------------------------*/
 
 /*-------------------------
@@ -760,7 +760,7 @@ img { width: auto; max-width: 100%; height: auto; margin: 0; padding: 0; border-
 .faq-question { margin-bottom: 40px; }
 
 /*--------------------------------
-14. Accodrion 
+14. Accodrion
 ----------------------------------*/
 .st-accordion { }
 .st-accordion .panel { box-shadow: none; }

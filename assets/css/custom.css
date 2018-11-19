@@ -1,12 +1,17 @@
 .custom-body {
     margin-top: -160px;
 }
+
+.owl-dots {
+    display: none;
+}
+
 .sticky-wrapper {
     top: 160px;
     position: relative;
 }
-.custom-body #navigation { 
-	font-family: Futura,Trebuchet MS,Arial,sans-serif;
+.custom-body #navigation {
+	font-family: 'Nunito', sans-serif;
 }
 #navigation li.active{
     text-decoration: underline #a3c525;
@@ -78,15 +83,15 @@
 .space-medium {
     margin: 0 auto;
   }
-  
+
   .space-medium {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;    
+    color: white;
     padding-top: 0;
   }
-  
+
   .space-medium:nth-of-type(3) {
     background: url(../images/about.png) 0% 0% no-repeat;
     background-size: 100%;
@@ -96,13 +101,13 @@
   .space-medium:nth-of-type(4) {
     background: transparent;
   }
-  
+
   .space-medium:nth-of-type(5) {
     background: url(../images/venue.png) 0% 0% no-repeat;
     background-size: 100%;
     background-repeat: round;
   }
-  
+
   .space-medium:nth-of-type(6) {
     background: #fff;
   }
@@ -134,7 +139,7 @@
 /* //speakers */
 .speakers{
     color: #181c18;
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .service-content {
     padding: 10px;
@@ -166,15 +171,15 @@
 .venue-description  p {
     font-size: 14px;
 }
-.venue-section { 
-    padding-bottom: 55px; 
-    padding-top: 55px; 
+.venue-section {
+    padding-bottom: 55px;
+    padding-top: 55px;
 }
-p.venue-title { 
-    display: flex; 
-    align-items: center; 
-    font-size: 39px; 
-    color: #fff; 
+p.venue-title {
+    display: flex;
+    align-items: center;
+    font-size: 39px;
+    color: #fff;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -273,7 +278,7 @@ p.venue-title {
 
 /* //generales */
 h1, h2, h3, h4, h5, p, a, span, button, label, input {
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-family: 'Nunito',sans-serif;
 }
 .right{
     text-align: right;
@@ -310,14 +315,14 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
     white-space:nowrap;
 }
 /* text */
-#navigation>ul>li>a { 
-    color: #484848; 
-    font-size: 15px;
+#navigation>ul>li>a {
+    color: #484848;
+    font-size: 16px;
     text-transform: lowercase;
 }
 
 .section-title-custom {
-    color: #484848; 
+    color: #484848;
     font-size: 39px;
     color: #484848;
 }
@@ -327,7 +332,7 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
     font-size: 31px;
 }
 .general-text {
-    color: #484848; 
+    color: #484848;
     font-weight: 500;
     color: #484848;
 }
@@ -362,7 +367,7 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
     .sticky-wrapper {
         position: initial;
     }
-    
+
     #navigation {
         padding-top: 0;
     }
@@ -461,8 +466,8 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
         padding-top: 200px;
         margin: 0;
         text-align: center;
-        padding-left: 10px; 
-        padding-right: 10px; 
+        padding-left: 10px;
+        padding-right: 10px;
     }
     #tickets .prices {
         flex-direction: column;
