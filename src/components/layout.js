@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import SEO from './seo'
 import './layout.scss'
 
 const Layout = ({ children }) => (
@@ -18,6 +19,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+        <SEO title="NodeConfCo" keywords={[`nodeconfco`, `colombia`]} />
         <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
