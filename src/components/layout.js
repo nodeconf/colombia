@@ -17,10 +17,10 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (
+    render={() => (
       <>
         <SEO title="NodeConfCo" keywords={[`nodeconfco`, `colombia`]} />
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header />
         <div
           style={{
             margin: `0 auto`,

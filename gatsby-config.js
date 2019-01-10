@@ -31,9 +31,9 @@ module.exports = {
         icon: `src/assets/images/logo.png`, // This path is relative to the root of the site.
       },
     },
+    'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    'gatsby-plugin-offline',
-    'gatsby-plugin-sass'
+    // 'gatsby-plugin-offline'
   ],
 }

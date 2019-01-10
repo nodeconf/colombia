@@ -1,0 +1,25 @@
+.header {
+  background: url(../assets/images/menu-w.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  min-height: 180px;
+}
+.navigation {
+  padding-top: 0;
+  top: -15px;
+}
+.menuButton {
+  display: none;
+}
+.menuList {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  max-width: 170px;
+  max-height: 200px;
+  position: absolute !important;
+  width: 170px;
+}
