@@ -41,6 +41,12 @@ $(window).scroll(function () {
     $(".media-partners").removeClass("font-size-39");
   }
 
+  if ($(window).width() > 991) {
+    $(".btn-get-ticket").addClass("margin-left-350");
+  } else {
+    $(".btn-get-ticket").removeClass("margin-left-350");
+  }
+
   // Get the current vertical position of the scroll bar
   position = $(this).scrollTop();
   $('#navigation li a[href^="#"]').each(function () {
