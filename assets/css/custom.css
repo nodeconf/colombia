@@ -234,8 +234,13 @@ p.venue-title {
     flex-grow: 1;
     align-items: center;
 }
-#tickets .ticket-price:first-child {
-    /* border-right: 1px solid #fff; */
+#tickets .btn-get-ticket {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+ #tickets .ticket-price:first-child {
+     border-right: 3px solid #fff; 
     margin-right: 20px;
 }
 #tickets .price {
@@ -255,11 +260,19 @@ p.venue-title {
     font-size: 15px;
 }
 #tickets .buy-tickets {
-    background-color: #fff;
-    color: #9ec95a;
+    background-color: #9ec95a;
+    color: #fff;
     border-bottom: 2px solid #956400;
     width: fit-content;
-    padding: 3px;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+#tickets .sold-tickets {
+    background-color: #81a548;
+    color: #fff;
+    border-bottom: 2px solid #956400;
+    width: fit-content;
+    padding: 5px 40px;
     cursor: pointer;
 }
 /* footer */
@@ -294,6 +307,10 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
 }
 .margin-top-15 {
     margin-top: 15px;
+}
+
+.margin-left-350 {
+    margin-left: 350px;
 }
 .font-grey {
     color: #c1c1c1;
@@ -472,26 +489,25 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
     #tickets .prices {
         flex-direction: column;
     }
-    #tickets .ticket-price:first-child {
-        border-right: 0;
-        margin: 0;
-        padding-bottom: 10px;
-    }
     #tickets .ticket-price {
         padding: 20px 0;
         flex-direction: column;
         margin: 0;
     }
-    #tickets .ticket-price:nth-child(2) {
-        padding-bottom: 0;
+    #tickets .ticket-price:first-child {
+        border: none;
     }
     #tickets .ticket-price span {
         padding: 10px 0;
     }
     #tickets .buy-tickets {
         margin: 0 auto;
-        padding: 5px 40px;
         font-size: 2.5rem;
+        margin-top: -20px;
+        justify-content: center;
+    }
+    #tickets .btn-get-ticket {
+        justify-content: center;
     }
     #tickets .price-desc p {
         margin-bottom: 0;
