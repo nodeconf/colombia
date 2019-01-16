@@ -13,22 +13,22 @@ const Header = () => (
       <div className={styles.menuButton}>Menu</div>
       <ul className={styles.menuList}>
         <li className="active">
-          <Link to="#home" title="Home" className="active">Home</Link>
+          <Link to="#home" title="Home" className={`${styles.menuItem} active`}>Home</Link>
         </li>
         <li className="">
-          <Link to="#about" title="About" className="">About</Link>
+          <a href="#about" title="About" className={styles.menuItem}>About</a>
         </li>
         <li className="">
-          <Link to="#speakers" title="Speakers" className="">Speakers</Link>
+          <Link to="#speakers" title="Speakers" className={styles.menuItem}>Speakers</Link>
         </li>
         <li className="">
-          <Link to="#venue" title="Venue" className="">Venue</Link>
+          <Link to="#venue" title="Venue" className={styles.menuItem}>Venue</Link>
         </li>
         <li>
-          <Link to="#sponsors" title="Sponsors" className="">Sponsors</Link>
+          <Link to="#sponsors" title="Sponsors" className={styles.menuItem}>Sponsors</Link>
         </li>
         <li>
-          <Link to="#tickets" title="Tickets" className="menu-tickets">Tickets</Link>
+          <Link to="#tickets" title="Tickets" className={styles.menuItem}>Tickets</Link>
         </li>
       </ul>
     </div>
