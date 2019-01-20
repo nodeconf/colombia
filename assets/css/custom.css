@@ -309,8 +309,8 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
     margin-top: 15px;
 }
 
-.margin-left-350 {
-    margin-left: 350px;
+.margin-left-320 {
+    margin-left: 320px;
 }
 .font-grey {
     color: #c1c1c1;
@@ -341,7 +341,6 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
 .section-title-custom {
     color: #484848;
     font-size: 39px;
-    color: #484848;
 }
 
 .sub-title-custom {
@@ -438,7 +437,6 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
         margin-bottom: 0;
         font-size: 1.4rem;
         padding-top: 60px;
-        text-align: justify;
     }
     #about .section-title h1 {
         text-align: center;
