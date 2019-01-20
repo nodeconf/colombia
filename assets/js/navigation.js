@@ -42,9 +42,9 @@ $(window).scroll(function () {
   }
 
   if ($(window).width() > 991) {
-    $("#buy-link").addClass("margin-left-350");
+    $("#buy-link").addClass("margin-left-320");
   } else {
-    $("#buy-link").removeClass("margin-left-350");
+    $("#buy-link").removeClass("margin-left-320");
   }
 
   // Get the current vertical position of the scroll bar
