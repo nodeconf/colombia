@@ -438,7 +438,6 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
         margin-bottom: 0;
         font-size: 1.4rem;
         padding-top: 60px;
-        text-align: justify;
     }
     #about .section-title h1 {
         text-align: center;
