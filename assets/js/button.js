@@ -1,6 +1,5 @@
 function goTo(url) {
-  window.open(url, '_blank');
+  if (url) {
+    window.open(url, '_blank');
+  }
 }
-
-
-
