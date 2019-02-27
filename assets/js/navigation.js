@@ -36,9 +36,12 @@ $(window).scroll(function () {
 
   if ($(window).width() > 479) {
     $(".media-partners").addClass("font-size-39");
+    $(".sponsors-title").addClass("font-size-39");
   } else {
     $(".media-partners").addClass("font-size-23");
     $(".media-partners").removeClass("font-size-39");
+    $(".sponsors-title").addClass("font-size-23");
+    $(".sponsors-title").removeClass("font-size-39");
   }
 
   if ($(window).width() > 991) {

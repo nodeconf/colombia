@@ -293,9 +293,6 @@ p.venue-title {
 h1, h2, h3, h4, h5, p, a, span, button, label, input {
     font-family: 'Nunito',sans-serif;
 }
-.right{
-    text-align: right;
-}
 .non-margin{
     margin: 0;
 }
@@ -304,6 +301,15 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
 }
 .center {
     align-items: center;
+    text-align: center;
+}
+.left {
+    align-items: left;
+    text-align: left;
+}
+.right {
+    align-items: right;
+    text-align: right;
 }
 .margin-top-15 {
     margin-top: 15px;
@@ -361,7 +367,16 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
 .font-size-39 {
     font-size: 39px;
 }
-
+.logo-changelog {
+    width: 219px;
+    margin-top: -14px;
+}
+.logo-nodebr {
+    width: 164px;
+}
+.margin-t-8 {
+    margin-top: 8%;
+}
 
 /* Media query */
 @media only screen and (max-width: 991px) {
@@ -509,6 +524,9 @@ h1, h2, h3, h4, h5, p, a, span, button, label, input {
     }
     #tickets .price-desc p {
         margin-bottom: 0;
+    }
+    .space-logo{
+        margin-top: 30px;
     }
 }
 
