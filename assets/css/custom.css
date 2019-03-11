@@ -239,8 +239,12 @@ p.venue-title {
     flex-grow: 1;
     align-items: center;
 }
- #tickets .ticket-price:first-child {
-     border-right: 3px solid #fff; 
+#tickets .ticket-price:first-child {
+    border-right: 3px solid #fff; 
+    margin-right: 20px;
+}
+#tickets .ticket-price-regular:first-child {
+    border-right: none; 
     margin-right: 20px;
 }
 #tickets .price {
