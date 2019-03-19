@@ -227,7 +227,6 @@ p.venue-title {
 }
 #tickets .prices {
     display: flex;
-    justify-content: space-between;
 }
 #tickets .ticket-price {
     display: flex;

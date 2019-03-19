@@ -44,9 +44,7 @@ $(window).scroll(function () {
     $(".sponsors-title").removeClass("font-size-39");
   }
 
-  if ($(window).width() > 991) {
-    $("#buy-link").addClass("margin-left-320");
-  } else {
+  if ($(window).width() < 991) {
     $("#buy-link").removeClass("margin-left-320");
   }
 
