@@ -1,0 +1,44 @@
+.header-component{
+  &.header {
+    background: url(../../assets/images/menu-w.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    min-height: 180px;
+    .navigation {
+      padding-top: 0;
+      top: -15px;
+    }
+    .menuButton {
+      display: none;
+    }
+    .menuList {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 5rem;
+    }
+    .logo {
+      max-width: 170px;
+      max-height: 200px;
+      position: absolute !important;
+      width: 170px;
+      margin-left: 9%;
+    }
+    .menuItem {
+      font-size: 16px;
+      text-transform: lowercase;
+      padding: 15px;
+      letter-spacing: 2px;
+      font-weight: 900;
+      padding-top: 1.45rem;
+      a {
+        text-decoration: none;
+        color: #484848;
+      }
+      &.active {
+        background-color: #92c800;
+      }
+    }
+  }
+}
