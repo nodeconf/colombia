@@ -27,7 +27,7 @@ const Header = () => (
         <li className="menuItem">
           <Link to="#sponsors" title="Sponsors">Sponsors</Link>
         </li>
-        <li className="menuItem">
+        <li className="menuItem tickets">
           <Link to="#tickets" title="Tickets">Tickets</Link>
         </li>
       </ul>
