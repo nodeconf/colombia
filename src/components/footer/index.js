@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div className="footer-component">
-        NodeConf Colombia is an event by Mantid LLC - <a href="http://jsconf.com/codeofconduct.html" target="_blank">Code of conduct</a>
+        NodeConf Colombia is an event by Mantid LLC - <a href="http://jsconf.com/codeofconduct.html" target="_blank" rel="noopener noreferrer">Code of conduct</a>
       </div>
     )
   }
