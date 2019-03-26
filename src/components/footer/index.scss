@@ -1,0 +1,15 @@
+.footer-component {
+  background: url(../../assets/images/footer.png) 0% 0% no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  min-height: 230px;
+  color: #475a4f;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10px;
+  a {
+    color: #000;
+  }
+}
