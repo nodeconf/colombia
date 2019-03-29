@@ -4,11 +4,13 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Guillermo from '../components/images/image-guillermo'
 import Anna from '../components/images/image-anna'
+import TopInfo from '../components/top-info'
 
 import './index.scss'
 
 const IndexPage = () => (
   <Layout>
+    <TopInfo />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>

@@ -1,46 +1,63 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
-import Logo from '../images/image-logo'
+import Logo from '../images/image-logo';
 
-import './header.scss'
+import './index.scss';
 
 const Header = () => (
   <div className="header-component header">
+    <div className="menu-item">
+      <Link to="#home" title="Home">
+        Speakers
+      </Link>
+    </div>
+    <div className="menu-item">
+      <Link to="#about" title="About">
+        About
+      </Link>
+    </div>
+    <div className="menu-item">
+      <Link to="#venue" title="Venue">
+        Venue
+      </Link>
+    </div>
+    <div className="menu-item">
+      <Link to="#sponsors" title="Sponsors">
+        Sponsors
+      </Link>
+    </div>
     <Logo className="logo" />
-    <div className="navigation">
-      <div className="menuButton">Menu</div>
-      <ul className="menuList">
-        <li className="menuItem active">
-          <Link to="#home" title="Home">Home</Link>
-        </li>
-        <li className="menuItem">
-          <a href="#about" title="About">About</a>
-        </li>
-        <li className="menuItem">
-          <Link to="#speakers" title="Speakers">Speakers</Link>
-        </li>
-        <li className="menuItem">
-          <Link to="#venue" title="Venue">Venue</Link>
-        </li>
-        <li className="menuItem">
-          <Link to="#sponsors" title="Sponsors">Sponsors</Link>
-        </li>
-        <li className="menuItem tickets">
-          <Link to="#tickets" title="Tickets">Tickets</Link>
-        </li>
-      </ul>
+    <div className="menu-item">
+      <Link to="#speakers" title="Speakers">
+        Speakers
+      </Link>
+    </div>
+    <div className="menu-item">
+      <Link to="#tickets" title="Tickets">
+        Tickets
+      </Link>
+    </div>
+    <div className="menu-item">
+      <Link to="#schedule" title="Schedule">
+        Schedule
+      </Link>
+    </div>
+    <div className="menu-item">
+      <Link to="#organizer-team" title="Organizer Team">
+        Organizer Team
+      </Link>
     </div>
   </div>
-)
+);
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+  siteTitle: PropTypes.string
+};
 
 Header.defaultProps = {
-  siteTitle: ``,
-}
+  siteTitle: ``
+};
 
-export default Header
+export default Header;

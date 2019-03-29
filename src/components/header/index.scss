@@ -1,0 +1,30 @@
+.header-component {
+  &.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    
+    .logo {
+      max-width: 130px;
+      max-height: 200px;
+      width: 170px;
+      img {
+        margin-bottom: 0;
+      }
+    }
+
+    .menu-item {
+      margin: 0 20px;
+      a {
+        text-decoration: none;
+        color: #515151;
+        font-weight: 500;
+        font-size: 1.1rem;
+        &:hover {
+          color: #9dc533;
+        }
+      }
+    }
+  }
+}
