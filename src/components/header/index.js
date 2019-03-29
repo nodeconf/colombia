@@ -1,4 +1,4 @@
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -6,48 +6,49 @@ import Logo from '../images/image-logo';
 
 import './index.scss';
 
+const scroll = (e, anchorId, offset = 125) => {
+  e.preventDefault();
+  
+  const menuItems = document.getElementsByClassName("menu-item");
+  for (let i = 0; i < menuItems.length; i++) {
+    menuItems[i].classList.remove('active');
+  }
+
+  if (document.getElementById(anchorId)) {
+    const target = document.getElementById(anchorId).offsetTop - offset;
+    window.scroll({
+      top: offset === 0 ? offset : target,
+      behavior: 'smooth'
+    })
+  }
+}
+
 const Header = () => (
   <div className="header-component header">
     <div className="menu-item">
-      <Link to="#home" title="Home">
-        Speakers
-      </Link>
+      <a href="#home" title="Home" onClick={e => scroll(e, 'home', 0)}>Home</a>
     </div>
     <div className="menu-item">
-      <Link to="#about" title="About">
-        About
-      </Link>
+      <a href="#about" title="About" onClick={e => scroll(e, 'about')}>About</a>
     </div>
     <div className="menu-item">
-      <Link to="#venue" title="Venue">
-        Venue
-      </Link>
+      <a href="#venue" title="Venue" onClick={e => scroll(e, 'venue')}>Venue</a>
     </div>
     <div className="menu-item">
-      <Link to="#sponsors" title="Sponsors">
-        Sponsors
-      </Link>
+      <a href="#sponsors" title="Sponsors" onClick={e => scroll(e, 'sponsors')}>Sponsors</a>
     </div>
     <Logo className="logo" />
     <div className="menu-item">
-      <Link to="#speakers" title="Speakers">
-        Speakers
-      </Link>
+      <a href="#speakers" title="Speakers" onClick={e => scroll(e, 'speakers')}>Speakers</a>
     </div>
     <div className="menu-item">
-      <Link to="#tickets" title="Tickets">
-        Tickets
-      </Link>
+      <a href="#tickets" title="Tickets" onClick={e => scroll(e, 'tickets')}>Tickets</a>
     </div>
     <div className="menu-item">
-      <Link to="#schedule" title="Schedule">
-        Schedule
-      </Link>
+      <a href="#schedule" title="Schedule" onClick={e => scroll(e, 'schedule')}>Schedule</a>
     </div>
     <div className="menu-item">
-      <Link to="#organizer-team" title="Organizer Team">
-        Organizer Team
-      </Link>
+      <a href="#organizer-team" title="Organizer Team" onClick={e => scroll(e, 'organizer-team')}>Organizer Team</a>
     </div>
   </div>
 );

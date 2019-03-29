@@ -4,7 +4,7 @@ import './index.scss';
 
 const TopInfo = () => {
   return (
-    <div className="top-info-component top-info">
+    <div className="top-info-component top-info" id="home">
       <div className="desc">
         <div className="data">
           <div>NodeConf</div>
