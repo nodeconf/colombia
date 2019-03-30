@@ -1,0 +1,50 @@
+.header-component {
+  &.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    position: fixed;
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    
+    .logo {
+      max-width: 130px;
+      max-height: 200px;
+      width: 170px;
+      img {
+        margin-bottom: 0;
+      }
+    }
+
+    .menu-item {
+      margin: 0 20px;
+      a {
+        text-decoration: none;
+        color: #515151;
+        font-weight: 500;
+        font-size: 1.1rem;
+        &:hover {
+          color: #9dc533;
+        }
+      }
+      &.active {
+        a {
+          border-bottom: 3px solid #9dc533;
+          padding-bottom: 5px;
+          border-radius: 2px;
+        }
+      }
+    }
+
+    &.header-small {
+      .logo {
+        max-width: 85px;
+        max-height: 90px;
+        width: 85px;
+      }
+    }
+  }
+}
