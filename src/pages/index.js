@@ -2,12 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
-import Speakers from '../components/section_speakers/index'
+import About from '../components/about'
 import './index.scss'
 
 const IndexPage = () => (
   <Layout>
-    <Speakers />
+    <About />
 
   </Layout>
 )
