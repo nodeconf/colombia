@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Speakers from '../components/section_speakers/'
+import Tickets from '../components/section_tickets'
 import Guillermo from '../components/images/image-guillermo'
 import Anna from '../components/images/image-anna'
 import TopInfo from '../components/top-info'
@@ -87,40 +89,8 @@ class IndexPage extends React.Component {
           LOS Sponsors<br />
           LOS Sponsors<br />
         </div>
-        <div className="speakers" id="speakers">
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-          LOS SPEAKERS<br />
-        </div>
-        <div className="tickets" id="tickets">
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-          LOS tickets<br />
-        </div>
+        <Speakers />
+        <Tickets />
         
         <h1>Hi people</h1>
         <p>Welcome to your new Gatsby site.</p>
