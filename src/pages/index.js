@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import About from '../components/about'
 import Speakers from '../components/section_speakers/'
 import Tickets from '../components/section_tickets'
 import Guillermo from '../components/images/image-guillermo'
@@ -55,23 +56,7 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <TopInfo />
-        <div className="about" id="about">
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-          LOS about<br />
-        </div>
+        <About />
         <div className="Sponsors" id="sponsors">
           LOS Sponsors<br />
           LOS Sponsors<br />
