@@ -58,6 +58,10 @@
     color: #484848; 
     text-align: center;
     font-family: sans-serif;
+    text-decoration: none;
+    &:hover {
+      background-color: #d89f17;
+    }
   }
 
   &__price{ font-weight: 700; }
@@ -73,10 +77,13 @@
     background-color: #97c33b;
     font-family: sans-serif;
     transition: .4s all;
+    text-decoration: none;
 
     &:hover{
-      text-decoration: underline;
       background-color: #52c75a;
+    }
+    .icon-row-rigth {
+      margin-left: 10px;
     }
 }
 }

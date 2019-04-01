@@ -1,26 +1,60 @@
-.About-component{
-    background-color: #97c33b;    
-    justify-content: center;
-    color: white;
-    padding: 120px;
-    text-align:center;
-    margin-top: -70px;
-    -webkit-clip-path: polygon(50% 0%, 100% 12%, 100% 85%, 50% 100%, 0 85%, 0 12%);
-    clip-path: polygon(50% 0%, 100% 12%, 100% 85%, 50% 100%, 0 85%, 0 12%);
-    p{
-        //margin: 0 0 30px;
-        line-height: 1.6;
-        font-family: 'Montserrat',sans-serif;
-        font-size: 24px;
-        padding-top: 60px;
-        font-weight: 400;
-    }
+.About-component {
+  background-color: #97c33b;
+  justify-content: center;
+  color: white;
+  padding: 120px;
+  text-align: center;
+  margin-top: -75px;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 12%,
+    100% 85%,
+    50% 100%,
+    0 85%,
+    0 12%
+  );
+  clip-path: polygon(50% 0%, 100% 12%, 100% 85%, 50% 100%, 0 85%, 0 12%);
+  p {
+    //margin: 0 0 30px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-top: 60px;
+    font-weight: 400;
+  }
 }
 
-.About-title{
-    text-align: center;
-    color: #484848;
-    font-size: 42px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
+.About-title {
+  text-align: center;
+  color: #484848;
+  font-size: 42px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 991px) {
+  .About-component {
+    margin-top: -90px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .About-component {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    clip-path: polygon(50% 0, 100% 7%, 100% 93%, 50% 100%, 0 93%, 0 7%);
+    margin-top: -50px;
+    .About-title {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 1.3rem;
+      padding-top: 25px;
+    }
+  }
 }

@@ -34,8 +34,7 @@ class IndexPage extends React.Component {
     document.querySelectorAll('.header-component .menu-item a').forEach(a => {
       var anchorId = a.getAttribute('href');
       
-      // console.log('anchorId', anchorId);
-      if (anchorId && document.querySelector(anchorId)) {
+      if (anchorId.startsWith('#') && document.querySelector(anchorId)) {
         const target = document.querySelector(anchorId).offsetTop - offset;
         const targetHeight = document.querySelector(anchorId).offsetHeight + target;
         if (position >= target && position < targetHeight) {
