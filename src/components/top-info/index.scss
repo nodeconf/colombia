@@ -1,0 +1,53 @@
+.top-info-component {
+  &.top-info {
+    min-height: 700px;
+    background: url(../../assets/images/ruta-n-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    margin-top: 185px;
+    .desc {
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      background-color: #00000061;
+      .data {
+        font-size: 3rem;
+        line-height: 1.5;
+        .get-your-tickets {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          border-radius: 5px;
+          color: #fff;
+          background-color: #53c75a;
+          border-color: #53c75a;
+          margin-top: 30px;
+          font-size: 1.5rem;
+          padding: 5px 20px;
+          &:hover {
+            background-color: #44af4a;
+            border-color: #44af4a;
+          }
+          .right-arrow {
+            margin-left: 30px;
+          }
+        }
+      }
+
+    }
+
+    .dates {
+      flex: 1;
+      background: url(../../assets/images/programacion.png);
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #00000061;
+    }
+  }
+}
