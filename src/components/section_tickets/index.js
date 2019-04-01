@@ -1,5 +1,3 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
 import React from 'react'
 
 
@@ -7,7 +5,7 @@ import './tickets.scss'
 
 const SectionSpeakers = () => ( 
 
-  <div class="section-tickets__background">
+  <div class="section-tickets__background" id="">
 
     <section class="section-tickets">
 
