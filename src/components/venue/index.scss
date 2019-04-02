@@ -19,6 +19,7 @@
   position: relative;
   top: 65px;
   left: 60px;
+
   .Venue-title {
     text-align: -webkit-left;
     color: white;
@@ -27,23 +28,20 @@
     font-weight: 700;
   }
 
-  .btn-venue {
-    font-family: "Montserrat", sans-serif;
+  .Venue-btn {
+    display: inline-block;
+    margin-top: 0.3em;
+    padding: .2em 1em;
+    border-radius: 15px;
+    color: #f2f2f2;
     font-weight: 700;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    color: #fff;
-    background-color: #53c75a;
-    border-color: #53c75a;
-    margin-top: 10px;
-    font-size: 20px;
-    padding: 0px 15px;
+    background-color: #97c33b;
+    font-family: sans-serif;
+    transition: .4s all;
+    text-decoration: none;
 
     &:hover {
-      background-color: #44af4a;
-      border-color: #44af4a;
+      background-color: #52c75a;
     }
   }
 }
@@ -90,13 +88,11 @@
   float: right;
   position: relative;
   bottom: 130px;
-  -webkit-clip-path: polygon(
-    50% 0%,
+  -webkit-clip-path: polygon(50% 0%,
     85% 20%,
     85% 75%,
     50% 100%,
     15% 75%,
-    15% 20%
-  );
+    15% 20%);
   clip-path: polygon(50% 0%, 85% 20%, 85% 75%, 50% 100%, 15% 75%, 15% 20%);
 }
