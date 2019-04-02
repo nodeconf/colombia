@@ -1,0 +1,102 @@
+.Venue-component {
+  background-color: #214fa3;
+  color: white;
+  padding: 80px;
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 15%, 100% 85%, 0 100%);
+
+  p {
+    margin: 0 0 30px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+}
+
+.Venue-left {
+  position: relative;
+  top: 65px;
+  left: 60px;
+  .Venue-title {
+    text-align: -webkit-left;
+    color: white;
+    font-size: 42px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+  }
+
+  .btn-venue {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #53c75a;
+    border-color: #53c75a;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 0px 15px;
+
+    &:hover {
+      background-color: #44af4a;
+      border-color: #44af4a;
+    }
+  }
+}
+
+.Venue-text {
+  text-align: -webkit-center;
+  padding-right: 200px;
+
+  p {
+    margin: 0 0 30px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    //padding-top: 20px;
+  }
+
+  .Venue-rutan {
+    position: relative;
+    width: 500px;
+    bottom: 140px;
+    padding-left: 70px;
+
+    .logo {
+      width: 170px;
+      position: relative;
+    }
+
+    .span-venue {
+      margin: 0 0 30px;
+      line-height: 1.6;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      //bottom: 100px;
+    }
+  }
+}
+
+.Venue-img {
+  width: 400px;
+  float: right;
+  position: relative;
+  bottom: 130px;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    85% 20%,
+    85% 75%,
+    50% 100%,
+    15% 75%,
+    15% 20%
+  );
+  clip-path: polygon(50% 0%, 85% 20%, 85% 75%, 50% 100%, 15% 75%, 15% 20%);
+}
