@@ -1,104 +1,122 @@
 import React from 'react'
 
-import Anna from '../images/image-anna'
-import Tierney from '../images/image-tierney'
-import Kat from '../images/image-kat'
-import James from '../images/image-james'
-import Guillermo from '../images/image-guillermo'
+import Diego from '../images/speaker_diego_paez'
+import Andrea from '../images/speaker_andrea_griffiths'
+import Miguel from '../images/speaker_miguel_bolivar'
+import Anna from '../images/speaker_cropped_anna'
+import Erick from '../images/speaker_erick-wendel'
+import Country_col from '../images/country-co'
+import Country_ve from '../images/country-ve'
+import Country_ar from '../images/country-ar'
+import Country_gr from '../images/country-ge'
+import Country_br from '../images/country-br'
 
 import './speakers.scss'
 
 const SectionSpeakers = () => ( 
 
   <section className="section-speakers" id="speakers">
-
+      
     <h2 className="section-speakers__title">Speakers</h2>
 
     <div className="inner-wrap-desktop">
-
       <article className="section-speakers__content">
         <figure className="section-speakers__img">
-          <a href="#!" target="_blank" rel="noopener noreferrer" className="section-speakers__img-link">
-            <Anna />
-          </a>
+          <Diego />
         </figure>
+        <div className="section-speakers__description">
+            Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
+        </div>
         <div className="section-speakers__data">
-          <a href="http://" target="_blank" rel="noopener noreferrer" className="section-speakers__name">Anna Henningsen</a>
-          <p className="section-speakers__description">
-            Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community.
-          </p>
-          <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__social">@ADDALEAX</a>
+          <div className="section-speakers__name">Diego Paes
+            <i class="section-speakers__country"><Country_ar /></i>
+          </div>
+          <div className="section-speakers__social">
+            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+              <i className="icon-twitter"></i>
+            </a>
+          </div>
         </div>
       </article>
-
+      
       <article className="section-speakers__content">
         <figure className="section-speakers__img">
-          <a href="#!" target="_blank" className="section-speakers__img-link">
-            <Tierney />
-          </a>
+          <Andrea />
         </figure>
+        <div className="section-speakers__description">
+          Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
+        </div>
         <div className="section-speakers__data">
-          <a href="#!" target="_blank" rel="noopener noreferrer" className="section-speakers__name">Tierney Cyren</a>
-          <p className="section-speakers__description">
-            ierney is a member of the Node.js Community Committee, a Senior Cloud Developer Advocate at Microsoft, and a contributor to various initiatives in the Node.js project focusing on the continued growth and success of the Node.js community.
-          </p>
-          <a href="https://twitter.com/bitandbang" target="_blank" rel="noopener noreferrer" className="section-speakers__social">@BITANDBANG</a>
+          <div className="section-speakers__name">Andrea Griffinths
+            <i class="section-speakers__country"><Country_col /></i>
+          </div>
+          <div className="section-speakers__social">
+            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+              <i className="icon-twitter"></i>
+            </a>
+          </div>
         </div>
       </article>
-
-    </div>
-
-    <div className="inner-wrap-desktop">
-
+  
       <article className="section-speakers__content">
         <figure className="section-speakers__img">
-          <a href="#!" target="_blank" rel="noopener noreferrer" className="section-speakers__img-link">
-            <Kat />
-          </a>
+          <Miguel />
         </figure>
-        <div className="section-speakers__data">
-          <a href="#!" target="_blank" rel="noopener noreferrer" className="section-speakers__name">Kat Marchán</a>
-          <p className="section-speakers__description">
-            npm CLI maintainer; tc39 delegate; wealljs admin; cat mom  
-          </p>
-          <a href="https://twitter.com/maybekatz" target="_blank" rel="noopener noreferrer" className="section-speakers__social">@MAYBEKATZ</a>
+        <div className="section-speakers__description">
+          Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
         </div>
-      </article>
-
-      <article className="section-speakers__content">
-        <figure className="section-speakers__img">
-          <a href="#!" target="_blank" rel="noopener noreferrer" className="section-speakers__img-link">
-            <James />
-          </a>
-        </figure>
         <div className="section-speakers__data">
-          <a href="#!" target="_blank" rel="noopener noreferrer" className="section-speakers__name">James Snell</a>
-          <p className="section-speakers__description">
-            nearForm Community Engineering Manager & Node.js TSC 
-          </p>
-          <a href="https://twitter.com/jasnell" target="_blank" rel="noopener noreferrer" className="section-speakers__social">@JASNELL</a>
+          <div className="section-speakers__name">Miguel Bolivar
+            <i class="section-speakers__country"><Country_ve /></i>
+          </div>
+          <div className="section-speakers__social">
+            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+              <i className="icon-twitter"></i>
+            </a>
+          </div>
         </div>
       </article>
 
     </div>
 
-    <div className="inner-wrap-desktop">
+    <div className="inner-wrap-desktop  margin-top">
+      <article className="section-speakers__content">
+        <figure className="section-speakers__img">
+          <Anna />
+        </figure>
+        <div className="section-speakers__description">
+            Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
+        </div>
+        <div className="section-speakers__data">
+          <div className="section-speakers__name">Anna Henningsen
+            <i class="section-speakers__country"><Country_gr /></i>
+          </div>
+          <div className="section-speakers__social">
+            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+              <i className="icon-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </article>
 
       <article className="section-speakers__content">
-      <figure className="section-speakers__img">
-        <a href="#!" target="_blank" className="section-speakers__img-link">
-          <Guillermo />
-        </a>
-      </figure>
-      <div className="section-speakers__data">
-        <a href="#!" target="_blank" className="section-speakers__name">Guillermo Rauch</a>
-        <p className="section-speakers__description">
-          Founder of ▲ZEIT, creator of Next.js and Socket.io 
-        </p>
-        <a href="https://twitter.com/rauchg" target="_blank" rel="noopener noreferrer" className="section-speakers__social">@RAUCHG</a>
-      </div>
-    </article>
-    
+          <figure className="section-speakers__img">
+            <Erick />
+          </figure>
+          <div className="section-speakers__description">
+              Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
+          </div>
+          <div className="section-speakers__data">
+            <div className="section-speakers__name">Erick Wendel
+              <i class="section-speakers__country"><Country_br /></i>
+            </div>
+            <div className="section-speakers__social">
+              <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+                <i className="icon-twitter"></i>
+              </a>
+            </div>
+          </div>
+      </article>
     </div>
 
   </section>
