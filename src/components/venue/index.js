@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-//import Hotel from '../images/image-hotel'
+
 import Rutan from '../images/image-hotel'
 import VenueImg from '../images/image-venue-image'
+
 import './index.scss';
 
 export default class Venue extends Component{

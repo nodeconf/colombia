@@ -1,4 +1,4 @@
-.section-sponsors{
+.section-sponsors-view {
   
   &__title {
     margin-top: 50px;
@@ -9,37 +9,44 @@
     font-family: 'Nunito', sans-serif;
   }
 
-
-  &__content { margin-bottom: 1em; }
+  &__content {
+    margin-bottom: 1em;
+  }
 
   &__data {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 1.5em; 
+    margin: 1.5em;
   }
 
   // tamaño para el contenedor de las imagenes (card)
-  .big { 
-    width: 80%; 
+  .big {
+    width: 80%;
     margin: auto;
 
-    & > div { flex: 0 1 300px; }
+    & > div {
+      flex: 0 1 300px;
+    }
   }
 
-  .medium { 
-    width: 70%; 
+  .medium {
+    width: 70%;
     margin: auto;
 
-    & > div { flex: 0 1 200px; }
+    & > div {
+      flex: 0 1 200px;
+    }
   }
 
-  .small { 
-    width: 50%; 
+  .small {
+    width: 50%;
     margin: auto;
 
-    & > div { flex: 0 1 150px; }
+    & > div {
+      flex: 0 1 150px;
+    }
   }
 
   &__medal {
@@ -51,66 +58,66 @@
     line-height: 100px;
     color: #f2f2f2;
     font-weight: 700;
-    -webkit-clip-path: polygon(
-      20% 0%, 
-      80% 0%, 
-      100% 100%, 
-      0% 100%
-      );
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   }
 
   &__tag {
     display: inline-block;
-    padding: .6em;
+    padding: 0.6em;
     border-radius: 10px;
-    font-size: .9em;
+    font-size: 0.9em;
   }
   // contenedor de cada imagen
   &__card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 200px;
     margin: 1em;
-    padding: 2em;
-    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
   }
 
-  .platinum {background-color: #797979; }
-  .gold {background-color: #FFB404; }
-  .silver {background-color: #BEC2CB; }
+  .platinum {
+    background-color: #797979;
+  }
+  .gold {
+    background-color: #ffb404;
+  }
+  .silver {
+    background-color: #bec2cb;
+  }
 
   .opportunity,
   .community,
-  .travel { color: #f2f2f2; }
+  .travel {
+    color: #f2f2f2;
+  }
 
-  .opportunity { background-color: #97C33B; }
-  .community { background-color: #214FA3; }
-  .travel { background-color: #E3920C; }
+  .opportunity {
+    background-color: #97c33b;
+  }
+  .community {
+    background-color: #214fa3;
+  }
+  .travel {
+    background-color: #e3920c;
+  }
 
-  .inner-wrap-desktop &__data > div { 
+  .inner-wrap-desktop &__data > div {
     box-shadow: none;
     padding: 0;
   }
 
-
-  @media only screen and (min-width : 640px){
-            
+  @media only screen and (min-width: 640px) {
     .inner-wrap-desktop {
-      display: flex;  
+      display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
     }
   }
 
-  @media only screen and (min-width : 1024px){
-              
+  @media only screen and (min-width: 1024px) {
     .inner-wrap-desktop {
       margin: 0 auto;
       width: 80%;
     }
   }
-
-
 }
