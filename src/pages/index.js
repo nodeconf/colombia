@@ -5,6 +5,7 @@ import About from '../components/about'
 import Speakers from '../components/section_speakers/'
 import Tickets from '../components/section_tickets'
 import Venue from '../components/venue'
+import Sponsors from '../components/section_sponsors'
 import TopInfo from '../components/top-info'
 
 import './index.scss'
@@ -56,23 +57,7 @@ class IndexPage extends React.Component {
         <About />
         <Speakers />
         <Venue />
-        <div className="Sponsors" id="sponsors">
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-          LOS Sponsors<br />
-        </div>
+        <Sponsors />
         <Tickets />
       </Layout>
     )
