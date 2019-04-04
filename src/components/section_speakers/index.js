@@ -5,11 +5,11 @@ import Andrea from '../images/speaker_andrea_griffiths'
 import Miguel from '../images/speaker_miguel_bolivar'
 import Anna from '../images/speaker_cropped_anna'
 import Erick from '../images/speaker_erick-wendel'
-import Country_col from '../images/country-co'
-import Country_ve from '../images/country-ve'
-import Country_ar from '../images/country-ar'
-import Country_gr from '../images/country-ge'
-import Country_br from '../images/country-br'
+import CountryCol from '../images/country-co'
+import CountryVe from '../images/country-ve'
+import CountryAr from '../images/country-ar'
+import CountryGr from '../images/country-ge'
+import CountryBr from '../images/country-br'
 
 import './speakers.scss'
 
@@ -29,10 +29,10 @@ const SectionSpeakers = () => (
         </div>
         <div className="section-speakers__data">
           <div className="section-speakers__name">Diego Paes
-            <i class="section-speakers__country"><Country_ar /></i>
+            <i class="section-speakers__country"><CountryAr /></i>
           </div>
           <div className="section-speakers__social">
-            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+            <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
               <i className="icon-twitter"></i>
             </a>
           </div>
@@ -48,10 +48,10 @@ const SectionSpeakers = () => (
         </div>
         <div className="section-speakers__data">
           <div className="section-speakers__name">Andrea Griffinths
-            <i class="section-speakers__country"><Country_col /></i>
+            <i class="section-speakers__country"><CountryCol /></i>
           </div>
           <div className="section-speakers__social">
-            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+            <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
               <i className="icon-twitter"></i>
             </a>
           </div>
@@ -67,19 +67,16 @@ const SectionSpeakers = () => (
         </div>
         <div className="section-speakers__data">
           <div className="section-speakers__name">Miguel Bolivar
-            <i class="section-speakers__country"><Country_ve /></i>
+            <i class="section-speakers__country"><CountryVe /></i>
           </div>
           <div className="section-speakers__social">
-            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+            <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
               <i className="icon-twitter"></i>
             </a>
           </div>
         </div>
       </article>
 
-    </div>
-
-    <div className="inner-wrap-desktop  margin-top">
       <article className="section-speakers__content">
         <figure className="section-speakers__img">
           <Anna />
@@ -89,10 +86,10 @@ const SectionSpeakers = () => (
         </div>
         <div className="section-speakers__data">
           <div className="section-speakers__name">Anna Henningsen
-            <i class="section-speakers__country"><Country_gr /></i>
+            <i class="section-speakers__country"><CountryGr /></i>
           </div>
           <div className="section-speakers__social">
-            <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+            <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
               <i className="icon-twitter"></i>
             </a>
           </div>
@@ -108,10 +105,10 @@ const SectionSpeakers = () => (
           </div>
           <div className="section-speakers__data">
             <div className="section-speakers__name">Erick Wendel
-              <i class="section-speakers__country"><Country_br /></i>
+              <i class="section-speakers__country"><CountryBr /></i>
             </div>
             <div className="section-speakers__social">
-              <a href="https://twitter.com/addaleax" target="_blank" className="section-speakers__icon">
+              <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
                 <i className="icon-twitter"></i>
               </a>
             </div>

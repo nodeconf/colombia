@@ -1,16 +1,14 @@
-.section-speakers{
-
+.section-speakers {
   // display: flex;
   // flex-direction: column;
   // align-items: center;
 
-  .inner-wrap-desktop{
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center;  
+  .inner-wrap-desktop {
+    display: flex;
+    margin-top: 110px;
   }
 
-  &__title{
+  &__title {
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 39px;
@@ -19,33 +17,42 @@
     font-family: 'Nunito', sans-serif;
   }
 
-  &__content{
+  &__content {
     position: relative;
-    max-width: 400px;
-    margin: .9em;
-    transition: .8s all;
+    width: 400px;
+    height: 400px;
+    margin: 0.9em;
+    transition: 0.8s all;
+    margin-top: -90px;
   }
 
   // tag <figure>
-  &__img{
+  &__img {
     position: relative;
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(
+      50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%
+    );
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   }
 
-  &__img:before{
+  &__img:before {
     position: absolute;
     content: '';
     display: block;
     width: 100%;
     height: 100%;
     background-color: #121112;
-    opacity: .5;
+    opacity: 0.5;
   }
-  
+
   /* movimiento - muestra la descripcion del speaker */
 
-  &__description{ 
+  &__description {
     position: absolute;
     display: flex;
     align-items: center;
@@ -61,83 +68,134 @@
     text-align: center;
     font-family: sans-serif;
     font-size: 1.2em;
-    transition: .8s all ease-in-out;
+    transition: 0.8s all ease-in-out;
     text-align: center;
-    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(
+      50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%
+    );
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   }
 
-  &__content:hover &__description{
+  &__content:hover &__description {
     transform: scale(1);
     background-color: #121112;
   }
 
-  &__data{
+  &__data {
     position: absolute;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
-  &__name{
+  &__name {
     position: relative;
     font-family: sans-serif;
     font-size: 1.125em;
     color: #f2f2f2;
     letter-spacing: 2px;
-    transition: .6s all ease-in-out;
-    padding: .3em;
+    transition: 0.6s all ease-in-out;
+    padding: 0.3em;
   }
 
-  &__content:hover &__name{ background-color: #52C75A; }
+  &__content:hover &__name {
+    background-color: #52c75a;
+  }
 
-  &__social{
+  &__social {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
     width: 100px;
-    margin-top: .7em;
+    margin-top: 0.7em;
 
     & i {
       font-size: 1.3em;
       display: block;
       color: #f2f2f2;
-      transition: .4s all;
+      transition: 0.4s all;
 
-      & { color: #52C75A; }
+      & {
+        color: #52c75a;
+      }
     }
   }
 
-  &__country{
+  &__country {
     position: absolute;
     top: 0;
     bottom: 0;
     left: -30px;
     width: 30px;
-    transform: rotate(-45deg) 
+    transform: rotate(-45deg);
   }
 
-  .z-index-1000{
+  .z-index-1000 {
     z-index: 1000;
-}
+  }
 
+  @media only screen and (max-width: 1280px) {
+    &__content {
+      height: 300px;
+      width: 300px;
+      margin-top: -60px;
+    }
+    &__description {
+      font-size: 0.9em;
+    }
+    &__name {
+      font-size: 0.8em;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    &__content {
+      height: 200px;
+      width: 200px;
+      margin-top: -40px;
+    }
+    &__description {
+      font-size: 0.7em;
+    }
+    &__name {
+      font-size: 0.5em;
+      padding: 0;
+      height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__country {
+      left: -40px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    &__content {
+      height: 250px;
+      width: 250px;
+      max-width: 350px;
+      max-height: 350px;
+      margin-top: 0px;
+    }
+    .inner-wrap-desktop {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 
   @media (min-width: 768px) {
-
-    .inner-wrap-desktop{
+    .inner-wrap-desktop {
       flex-wrap: wrap;
       flex-direction: row;
       align-items: baseline;
       justify-content: center;
     }
-  
   }
-  
-  @media screen and (min-width : 1350px) {
-    .margin-top{
-        // margin-top: -6.2em;
-    }
-  }
-
 }
