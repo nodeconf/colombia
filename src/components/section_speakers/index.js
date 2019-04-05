@@ -78,7 +78,7 @@ const SectionSpeakers = () => (
           </div>
           <div className="section-speakers__social">
             <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
-              <i className="icon-twitter"></i>
+              <i className="icon-twitter" />
             </a>
           </div>
         </div>

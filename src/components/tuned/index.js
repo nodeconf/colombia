@@ -9,7 +9,9 @@ export default class Tuned extends React.Component {
         <div className="social">
           <div className="tuned">Stay Tuned</div>
           <div className="email">hola@nodeconf.co</div>
-          <div className="networks" />
+          <div className="networks">
+            <i className="icon-twitter" />
+          </div>
         </div>
         <form
           action="https://nodeconf.us18.list-manage.com/subscribe/post?u=33c93ca7e73c6c27cd0325b9f&amp;id=e71faec96c"

@@ -58,6 +58,10 @@ class Header extends React.Component {
     this.setState({ mobileMenuActive: !this.state.mobileMenuActive });
   }
 
+  activeClass = () => {
+    return this.state.mobileMenuActive ? 'active' : '';
+  }
+
   render() {
     console.log('state', this.state);
     if (this.state.width > 768) {
@@ -122,10 +126,25 @@ class Header extends React.Component {
       );
     }
     return (
-      <Swipeable onSwipedRight={this.handleToggleMenu} className={`header-component header mobile ${this.state.mobileMenuActive}`}>
-        <div className="icon-icomoon-5" onClick={this.handleToggleMenu} />
-        <nav className={`main-nav end-nav ${this.state.mobileMenuActive}`}>
-          <div>menu mobile</div>
+      <Swipeable onSwipedLeft={this.handleToggleMenu} className={`header-component header mobile-menu-toggle mobile ${this.activeClass()}`}>
+        <i className="icon-menu icon-three-bars" onClick={this.handleToggleMenu} />
+        <nav className={`main-nav end-nav ${this.activeClass()}`}>
+          <span className="auth-menu mobile-menu">
+            <div className="logo-wrap">
+              <div onClick={this.handleToggleMenu}>X</div>
+            </div>
+
+            <div className="items">
+              <div>uno</div>
+              <div>dos</div>
+              <div>ters</div>
+              <i className="icon-down" />
+              <i className="icon-beer" />
+              <i className="icon-twitter" />
+              <i className="icon-menu icon-three-bars" />
+              <i className="icon-align-justify" />
+            </div>
+          </span>
         </nav>
       </Swipeable>
     )

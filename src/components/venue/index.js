@@ -13,7 +13,7 @@ export default class Venue extends Component{
             <h2 className="Venue-title">VENUE</h2>
             <p>Hotels we</p>
             <p>recommend </p>
-            <a href="#!" className="Venue-btn">Moore...</a>
+            <a href="#!" className="Venue-btn">More...</a>
             </div>
             <div className="Venue-img">
                 <VenueImg  />
