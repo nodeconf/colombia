@@ -1,15 +1,14 @@
 .footer-component {
   background-color: #97c33b;
   background-position: bottom;
-  min-height: 230px;
+  min-height: 130px;
   color: white;
   font-size: 14px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 10px;
-  -webkit-clip-path: polygon(50% 75%, 100% 60%, 100% 100%, 50% 100%, 0 100%, 0 60%);
-  clip-path: polygon(50% 75%, 100% 60%, 100% 100%, 50% 100%, 0 100%, 0 60%);
+  clip-path: polygon(50% 40%, 100% 0, 100% 100%, 0 100%, 0 0);
   a {  
     color: white;
   }
