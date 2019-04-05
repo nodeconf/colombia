@@ -6,6 +6,12 @@
   .inner-wrap-desktop {
     display: flex;
     margin-top: 110px;
+    &.additional-row {
+      margin-top: -90px;
+    }
+    &.single-speaker-row {
+      margin-top: 0;
+    }
   }
 
   &__title {
@@ -145,7 +151,6 @@
     &__content {
       height: 300px;
       width: 300px;
-      // margin-top: -60px;
     }
     &__img {
       max-height: 300px;
@@ -162,10 +167,6 @@
     &__content {
       height: 200px;
       width: 200px;
-      // margin-top: -40px;
-    }
-    &__img {
-      max-height: 200px;
     }
     &__description {
       font-size: 0.7em;
@@ -181,6 +182,14 @@
     &__country {
       left: -40px;
     }
+    .inner-wrap-desktop {
+      &.additional-row {
+        margin-top: -60px;
+      }
+      &.single-speaker-row {
+        margin-top: -10px;
+      }
+    }
   }
 
   @media only screen and (max-width: 768px) {
@@ -194,10 +203,13 @@
     .inner-wrap-desktop {
       flex-direction: column;
       align-items: center;
+      &.additional-row {
+        margin-top: 0;
+      }
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     .inner-wrap-desktop {
       flex-wrap: wrap;
       flex-direction: row;
