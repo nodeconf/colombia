@@ -5,6 +5,8 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './footer'
 import SEO from './seo'
+import Tuned from '../components/tuned'
+
 import './layout.scss'
 
 const Layout = ({ children }) => (
@@ -25,6 +27,7 @@ const Layout = ({ children }) => (
         <div>
           {children}
           </div>
+        <Tuned />
         <Footer />
       </>
     )}
