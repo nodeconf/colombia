@@ -49,9 +49,23 @@
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1140px) {
   .header-component {
     &.header {
+      flex-wrap: wrap;
+      justify-content: start;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header-component {
+    &.header {
+      &.mobile {
+        height: 50px;
+        position: absolute;
+        width: fit-content;
+        right: 0;
+      }
     }
   }
 }

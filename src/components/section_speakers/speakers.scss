@@ -23,11 +23,12 @@
     height: 400px;
     margin: 0.9em;
     transition: 0.8s all;
-    margin-top: -90px;
+    // margin-top: -90px;
   }
 
   // tag <figure>
   &__img {
+    max-height: 400px;
     position: relative;
     -webkit-clip-path: polygon(
       50% 0%,
@@ -144,7 +145,10 @@
     &__content {
       height: 300px;
       width: 300px;
-      margin-top: -60px;
+      // margin-top: -60px;
+    }
+    &__img {
+      max-height: 300px;
     }
     &__description {
       font-size: 0.9em;
@@ -158,7 +162,10 @@
     &__content {
       height: 200px;
       width: 200px;
-      margin-top: -40px;
+      // margin-top: -40px;
+    }
+    &__img {
+      max-height: 200px;
     }
     &__description {
       font-size: 0.7em;
