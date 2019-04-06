@@ -24,8 +24,7 @@ const SectionSpeakers = () => (
       
     <h2 className="section-speakers__title">Speakers</h2>
 
-    <div className="inner-wrap-desktop">
-
+    <div className="inner-wrap-desktop first-row">
       <Speaker
         name="Anna Henningsen"
         twitterUrl="https://twitter.com/addaleax"
@@ -47,6 +46,8 @@ const SectionSpeakers = () => (
         figure={Kat}
         description="npm CLI maintainer; tc39 delegate; wealljs admin; cat mom"
       />
+    </div>
+    <div className="inner-wrap-desktop additional-row">
       <Speaker
         name="James Snell"
         twitterUrl="https://twitter.com/jasnell"
@@ -59,89 +60,41 @@ const SectionSpeakers = () => (
         twitterUrl="https://twitter.com/rauchg"
         country={CountryGr}
         figure={Rauch}
+        description="Founder of ▲ZEIT, creator of Next.js and Socket.io"
+      />
+    </div>
+    <div className="inner-wrap-desktop additional-row">
+      <Speaker
+        name="Diego Paes"
+        twitterUrl="https://twitter.com/addaleax"
+        country={CountryAr}
+        figure={Diego}
+        description="Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. "
+      />
+      <Speaker
+        name="Andrea Griffinths"
+        twitterUrl="https://twitter.com/rauchg"
+        country={CountryCol}
+        figure={Andrea}
+        description="Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. "
+      />
+      <Speaker
+        name="Miguel Bolivar"
+        twitterUrl="https://twitter.com/rauchg"
+        country={CountryVe}
+        figure={Miguel}
         description="Founder of ▲ZEIT, creator of Next.js and Socket.io "
       />
-
-
-
-
-      <article className="section-speakers__content">
-        <figure className="section-speakers__img">
-          <Diego />
-        </figure>
-        <div className="section-speakers__description">
-            Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
-        </div>
-        <div className="section-speakers__data">
-          <div className="section-speakers__name">Diego Paes
-            <i className="section-speakers__country"><CountryAr /></i>
-          </div>
-          <div className="section-speakers__social">
-            <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
-              <i className="icon-twitter" />
-            </a>
-          </div>
-        </div>
-      </article>
-      
-      <article className="section-speakers__content">
-        <figure className="section-speakers__img">
-          <Andrea />
-        </figure>
-        <div className="section-speakers__description">
-          Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
-        </div>
-        <div className="section-speakers__data">
-          <div className="section-speakers__name">Andrea Griffinths
-            <i className="section-speakers__country"><CountryCol /></i>
-          </div>
-          <div className="section-speakers__social">
-            <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
-              <i className="icon-twitter"></i>
-            </a>
-          </div>
-        </div>
-      </article>
-  
-      <article className="section-speakers__content">
-        <figure className="section-speakers__img">
-          <Miguel />
-        </figure>
-        <div className="section-speakers__description">
-          Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
-        </div>
-        <div className="section-speakers__data">
-          <div className="section-speakers__name">Miguel Bolivar
-            <i className="section-speakers__country"><CountryVe /></i>
-          </div>
-          <div className="section-speakers__social">
-            <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
-              <i className="icon-twitter"></i>
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <article className="section-speakers__content">
-          <figure className="section-speakers__img">
-            <Erick />
-          </figure>
-          <div className="section-speakers__description">
-              Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. 
-          </div>
-          <div className="section-speakers__data">
-            <div className="section-speakers__name">Erick Wendel
-              <i className="section-speakers__country"><CountryBr /></i>
-            </div>
-            <div className="section-speakers__social">
-              <a href="https://twitter.com/addaleax" target="_blank" rel="noopener noreferrer" className="section-speakers__icon">
-                <i className="icon-twitter"></i>
-              </a>
-            </div>
-          </div>
-      </article>
     </div>
-
+    <div className="inner-wrap-desktop single-speaker-row">
+      <Speaker
+        name="Erick Wendel"
+        twitterUrl="https://twitter.com/rauchg"
+        country={CountryBr}
+        figure={Erick}
+        description="Founder of ▲ZEIT, creator of Next.js and Socket.io "
+      />
+    </div>
   </section>
 
 )

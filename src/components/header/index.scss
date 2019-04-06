@@ -53,7 +53,30 @@
   .header-component {
     &.header {
       flex-wrap: wrap;
-      justify-content: start;
+      .logo {
+        max-width: 70px;
+        max-height: 100px;
+        width: 70px;
+      }
+      .menu-item {
+        margin: 0 10px;
+        a {
+          font-size: 0.8rem;
+        }
+      }
+      &.header-small {
+        .logo {
+          max-width: 70px;
+          max-height: 100px;
+          width: 70px;
+        }
+        .menu-item {
+          margin: 0 10px;
+          a {
+            font-size: 0.8rem;
+          }
+        }
+      }
     }
   }
 }
@@ -66,17 +89,16 @@
         width: fit-content;
         right: 0;
         
-
-
-
-
-
-
+        .menu-item {
+          a {
+            font-size: 1.1rem;
+          }
+        }
 
         &.mobile-menu-toggle {
           position: fixed;
-          right: 0;
-          top: 0;
+          right: 10px;
+          top: 10px;
           color: #FFF;
           font-size: 26px;
           padding: 12px 15px;
@@ -103,12 +125,6 @@
             border: 1px solid #fff;
           }
 
-
-
-
-
-
-         
           .mobile-menu {
             display: block;
             text-shadow: none;
@@ -186,6 +202,10 @@
               .logo-wrap {
                 display: flex;
                 justify-content: flex-end;
+                width: fit-content;
+                right: 0;
+                position: absolute;
+                padding-top: 20px;
                 i {
                   color: #163366;
                 }
@@ -193,6 +213,16 @@
               .items {
                 padding-left: 1.3em;
                 padding-right: 1.3em;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+                .logo {
+                  width: 50%;
+                  max-width: none;
+                  max-height: none;
+                }
                 .mobile-menu-signup {
                   width: 100%;
                   font-size: 15px;
@@ -289,13 +319,6 @@
           }
         }
       }
-    }
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  .header-component {
-    &.header {
     }
   }
 }

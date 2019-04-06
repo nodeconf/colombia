@@ -50,9 +50,7 @@ const SectionSponsors = () => (
 
     <div className="inner-wrap-desktop">
       <article className="section-sponsors-view__content">
-        <h3 className="section-sponsors-view__tag  opportunity">
-          Opportunity Supporter
-        </h3>
+        <h3 className="section-sponsors-view__tag  opportunity">Opportunity Supporter</h3>
         <div className="section-sponsors-view__data  small">
           <div className="section-sponsors-view__card">
             <Changelog />
