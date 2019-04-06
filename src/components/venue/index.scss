@@ -96,3 +96,35 @@
     15% 20%);
   clip-path: polygon(50% 0%, 85% 20%, 85% 75%, 50% 100%, 15% 75%, 15% 20%);
 }
+
+@media only screen and (max-width: 768px) {
+  .Venue-component {
+    flex-direction: column;
+    display: flex;
+    padding: 150px 20px;
+    align-items: center;
+    .Venue-left {
+      position: initial;
+      .Venue-btn {
+        margin-top: 10px;
+      }
+    }
+    .Venue-img {
+      width: 80%;
+      position: initial;
+      margin: 50px 0;
+    }
+    .Venue-text {
+      padding: 0;
+      .Venue-rutan {
+        padding: 0;
+        position: initial;
+        width: 100%;
+        .logo {
+          max-width: 50%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

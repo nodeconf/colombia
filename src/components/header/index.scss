@@ -75,8 +75,8 @@
 
         &.mobile-menu-toggle {
           position: fixed;
-          right: 0;
-          top: 0;
+          right: 10px;
+          top: 10px;
           color: #FFF;
           font-size: 26px;
           padding: 12px 15px;
@@ -186,6 +186,10 @@
               .logo-wrap {
                 display: flex;
                 justify-content: flex-end;
+                width: fit-content;
+                right: 0;
+                position: absolute;
+                padding-top: 20px;
                 i {
                   color: #163366;
                 }

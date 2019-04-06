@@ -131,7 +131,7 @@ class Header extends React.Component {
         <nav className={`main-nav end-nav ${this.activeClass()}`}>
           <span className="auth-menu mobile-menu">
             <div className="logo-wrap">
-              <div onClick={this.handleToggleMenu}>X</div>
+              <i className="icon-menu icon-three-bars" onClick={this.handleToggleMenu} />
             </div>
 
             <div className="items">
