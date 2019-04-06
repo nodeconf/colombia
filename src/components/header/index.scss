@@ -95,11 +95,6 @@
           }
         }
 
-
-
-
-
-
         &.mobile-menu-toggle {
           position: fixed;
           right: 10px;
@@ -130,12 +125,6 @@
             border: 1px solid #fff;
           }
 
-
-
-
-
-
-         
           .mobile-menu {
             display: block;
             text-shadow: none;
@@ -330,13 +319,6 @@
           }
         }
       }
-    }
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  .header-component {
-    &.header {
     }
   }
 }
