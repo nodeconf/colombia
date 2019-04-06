@@ -53,7 +53,30 @@
   .header-component {
     &.header {
       flex-wrap: wrap;
-      justify-content: start;
+      .logo {
+        max-width: 70px;
+        max-height: 100px;
+        width: 70px;
+      }
+      .menu-item {
+        margin: 0 10px;
+        a {
+          font-size: 0.8rem;
+        }
+      }
+      &.header-small {
+        .logo {
+          max-width: 70px;
+          max-height: 100px;
+          width: 70px;
+        }
+        .menu-item {
+          margin: 0 10px;
+          a {
+            font-size: 0.8rem;
+          }
+        }
+      }
     }
   }
 }
@@ -66,7 +89,11 @@
         width: fit-content;
         right: 0;
         
-
+        .menu-item {
+          a {
+            font-size: 1.1rem;
+          }
+        }
 
 
 

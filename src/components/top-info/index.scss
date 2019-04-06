@@ -51,6 +51,14 @@
   }
 }
 
+@media only screen and (max-width: 1140px) {
+  .top-info-component {
+    &.top-info {
+      margin-top: 116px;
+    }
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .top-info-component {
     &.top-info {
