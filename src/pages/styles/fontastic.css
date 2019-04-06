@@ -65,3 +65,9 @@
 .icon-align-justify:before {
   content: "\69";
 }
+.icon-x:before {
+  content: "\62";
+}
+.icon-cancel:before {
+  content: "\6a";
+}

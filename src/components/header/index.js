@@ -53,8 +53,12 @@ class Header extends React.Component {
     }
   }
 
+  scrollMobile = (e, section, offset) => {
+    this.scroll(e, section, offset)
+    this.handleToggleMenu();
+  }
+
   handleToggleMenu = () => {
-    console.log('handleToggleMenu');
     this.setState({ mobileMenuActive: !this.state.mobileMenuActive });
   }
 
@@ -63,7 +67,6 @@ class Header extends React.Component {
   }
 
   render() {
-    console.log('state', this.state);
     if (this.state.width > 768) {
       return (
         <div className="header-component header">
@@ -131,18 +134,65 @@ class Header extends React.Component {
         <nav className={`main-nav end-nav ${this.activeClass()}`}>
           <span className="auth-menu mobile-menu">
             <div className="logo-wrap">
-              <div onClick={this.handleToggleMenu}>X</div>
+              <i className="icon-menu icon-cancel" onClick={this.handleToggleMenu} />
             </div>
 
             <div className="items">
-              <div>uno</div>
-              <div>dos</div>
-              <div>ters</div>
-              <i className="icon-down" />
-              <i className="icon-beer" />
-              <i className="icon-twitter" />
-              <i className="icon-menu icon-three-bars" />
-              <i className="icon-align-justify" />
+              <Logo className="logo" />
+              <div className="menu-item">
+                <a href="#home" title="Home" onClick={e => this.scrollMobile(e, 'home', 0)}>
+                  Home
+                </a>
+              </div>
+              <div className="menu-item">
+                <a href="#about" title="About" onClick={e => this.scrollMobile(e, 'about')}>
+                  About
+                </a>
+              </div>
+              <div className="menu-item">
+                <a
+                  href="#speakers"
+                  title="Speakers"
+                  onClick={e => this.scrollMobile(e, 'speakers')}
+                >
+                  Speakers
+                </a>
+              </div>
+              <div className="menu-item">
+                <a href="#venue" title="Venue" onClick={e => this.scrollMobile(e, 'venue')}>
+                  Venue
+                </a>
+              </div>
+              <div className="menu-item">
+                <a
+                  href="#sponsors"
+                  title="Sponsors"
+                  onClick={e => this.scrollMobile(e, 'sponsors')}
+                >
+                  Sponsors
+                </a>
+              </div>
+              <div className="menu-item">
+                <a
+                  href="#tickets"
+                  title="Tickets"
+                  onClick={e => this.scrollMobile(e, 'tickets')}
+                >
+                  Tickets
+                </a>
+              </div>
+              <div className="menu-item">
+                <a
+                  href="#schedule"
+                  title="Schedule"
+                  onClick={e => this.scrollMobile(e, 'schedule')}
+                >
+                  Schedule
+                </a>
+              </div>
+              <div className="menu-item">
+                <Link to="/organizer-team/">Organizer Team</Link>
+              </div>
             </div>
           </span>
         </nav>
