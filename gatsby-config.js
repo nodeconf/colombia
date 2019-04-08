@@ -8,6 +8,7 @@ module.exports = {
     image: 'https://colombia.nodeconf.com/assets/images/social.png',
     url: 'https://colombia.nodeconf.com/'
   },
+  pathPrefix: "/colombia",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

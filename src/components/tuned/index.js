@@ -10,7 +10,9 @@ export default class Tuned extends React.Component {
           <div className="tuned">Stay Tuned</div>
           <div className="email">hola@nodeconf.co</div>
           <div className="networks">
-            <i className="icon-twitter" />
+            <a href="https://twitter.com/nodeconfco" target="_blank" rel="noopener noreferrer">
+              <i className="icon-twitter" />
+            </a>
           </div>
         </div>
         <form
