@@ -15,7 +15,13 @@
       padding: 10px 0;
     }
     .networks {
-
+      a {
+        text-decoration: none;
+      }
+      .icon-twitter {
+        font-size: 30px;
+        color: #484848;
+      }
     }
   }
 
