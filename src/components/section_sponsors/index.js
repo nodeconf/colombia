@@ -4,6 +4,9 @@ import Changelog from '../images/sponsor_example_changelog';
 import Nodebr from '../images/sponsor_example_nodebr';
 import Nodeconfarg from '../images/sponsor_example_nodeconfarg';
 import Nodesource from '../images/sponsor_example_nodesource';
+import Microsoft from '../images/sponsor_microsoft';
+import Github from '../images/sponsor_github';
+import Nearform from '../images/sponsor_nearform';
 import Rutan from '../images/sponsor_example_rutan-grey';
 
 import './sponsors.scss';
@@ -77,10 +80,13 @@ const SectionSponsors = () => (
         <h3 className="section-sponsors-view__tag  travel">Travel Parners</h3>
         <div className="section-sponsors-view__data  small">
           <div className="section-sponsors-view__card">
-            <Changelog />
+            <Microsoft />
           </div>
           <div className="section-sponsors-view__card">
-            <Nodeconfarg />
+            <Github />
+          </div>
+          <div className="section-sponsors-view__card">
+            <Nearform />
           </div>
         </div>
       </article>
@@ -89,3 +95,6 @@ const SectionSponsors = () => (
 );
 
 export default SectionSponsors;
+
+// [7:46 AM, 4/8/2019] +1 (941) 914-7392: Y hay una sección para travel partners
+// [7:47 AM, 4/8/2019] +1 (941) 914-7392: Ahí pondremos a Microsoft, nearForm y GitHub por ahora

@@ -1,16 +1,9 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-import Layout from '../layout'
 import Diego from '../images/speaker_diego_paez'
-import Andrea from '../images/speaker_andrea_griffiths'
 import Miguel from '../images/speaker_miguel_bolivar'
 import Anna from '../images/speaker_cropped_anna'
 import Erick from '../images/speaker_erick-wendel'
-import Bnb from '../images/speaker_bnb'
-import Kat from '../images/speaker_kat'
-import James from '../images/speaker_james'
-import Rauch from '../images/speaker_rauch'
 
 import './schedule.scss'
 
