@@ -40,7 +40,7 @@ const SectionSpeakers = () => (
         </div>
       </div>
 
-      <a href="https://ti.to/nodeconfco/2019" className="section-tickets__buy-tickets btn" target="_blank">
+      <a href="https://ti.to/nodeconfco/2019" className="section-tickets__buy-tickets btn" target="_blank" rel="noopener noreferrer">
         Buy Tickets <span className="icon-row-rigth"> ➡︎</span>
       </a>
 

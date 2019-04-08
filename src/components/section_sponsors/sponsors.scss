@@ -13,6 +13,9 @@
 
   &__content {
     margin-bottom: 1em;
+    &.bottom {
+      min-height: 600px;
+    }
   }
 
   &__data {
@@ -47,7 +50,7 @@
     margin: auto;
 
     & > div {
-      flex: 0 1 200px;
+      // flex: 0 1 200px;
     }
   }
 
@@ -78,6 +81,29 @@
     margin: 1em;
     padding: 2em;
     flex: 1 0 100%;
+  }
+  &__content {
+    &.bottom {
+      .section-sponsors-view__card {
+        &.getonboard {
+          background-color: #545561;
+          padding: 10px !important;
+          border-radius: 20px;
+        }
+        &.nearform {
+          .gatsby-image-wrapper {
+            width: 200px;
+          }  
+        }
+        .gatsby-image-wrapper {
+          width: 150px;
+          max-height: 150px;
+          img {
+            object-fit: contain !important;
+          }
+        }
+      }
+    }
   }
 
   .platinum {
