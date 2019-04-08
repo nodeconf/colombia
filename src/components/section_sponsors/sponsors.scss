@@ -65,17 +65,19 @@
   }
 
   &__tag {
-    display: inline-block;
     padding: 0.6em;
     border-radius: 10px;
     font-size: 1em;
+    text-align: center;
+    @media only screen and (min-width : 640px) {
+        display: inline-block;
+    }
   }
   // contenedor de cada imagen
   &__card {
     margin: 1em;
     padding: 2em;
     flex: 1 0 100%;
-    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
   }
 
   .platinum {
