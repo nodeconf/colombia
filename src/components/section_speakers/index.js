@@ -66,33 +66,33 @@ const SectionSpeakers = () => (
     <div className="inner-wrap-desktop additional-row">
       <Speaker
         name="Diego Paes"
-        twitterUrl="https://twitter.com/addaleax"
+        twitterUrl="https://twitter.com/carax"
         country={CountryAr}
         figure={Diego}
-        description="Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. "
+        description="JS developer with a Computer Science degree and a passion for HCI. He was born in the southernmost place in America, Tierra del Fuego but he is living in La Plata these days where he co-founded GEUT along with Martin and Max. He also loves the community, in fact, in 2014 he co-founded LaPlataJS a local JS community."
       />
       <Speaker
         name="Andrea Griffinths"
-        twitterUrl="https://twitter.com/rauchg"
+        twitterUrl="https://twitter.com/AlaColombia"
         country={CountryCol}
         figure={Andrea}
-        description="Over the last 2 years, Anna has been one of the most active contributors to Node.js core. Currently pursuing a Master’s degree in mathematics in Germany, she is fueled by a passion for Node and its community. "
+        description="Community Support @GitHub, @USArmy Veteran, 🇨🇴 Immigrant Latina in technology, OSS superfan, & breast cancer slayer. She/Her/Hers. Opiniones son mías."
       />
       <Speaker
         name="Miguel Bolivar"
-        twitterUrl="https://twitter.com/rauchg"
+        twitterUrl="https://twitter.com/darking360"
         country={CountryVe}
         figure={Miguel}
-        description="Founder of ▲ZEIT, creator of Next.js and Socket.io "
+        description="An informatics engineering student for the last semester, I'm working on my thesis right now, implementing a sentiment analysis app powered by Node to talk with IBM Watson to help the services problems info in my city, focusing all the work towards the transformation of a traditional city into a smart city. I work as a Fullstack developer for Sancrisoft, I've worked for various clients in Colombia, Chile and Ireland, and right now we're working with an USA trucks client for a major startup in the US"
       />
     </div>
     <div className="inner-wrap-desktop single-speaker-row">
       <Speaker
         name="Erick Wendel"
-        twitterUrl="https://twitter.com/rauchg"
+        twitterUrl="https://twitter.com/erickwendel_"
         country={CountryBr}
         figure={Erick}
-        description="Founder of ▲ZEIT, creator of Next.js and Socket.io "
+        description="Speaker, Software Consultant and community Co-organizer in Brazil. Named by Microsoft as Most Valuable Professional, and by Google as Google Developer Expert, a specialist in Node.js and Javascript Applications. He is a Software Independent Architect who helps companies to make better and cheaper applications using Serverless architectures, Container based applications, and Hybrid Cloud solutions. He has experience speaking and teaching at the biggest conferences in Brazil and the Americas, working as voluntary Leader of NodeBR, Javascript São Paulo and Nerdzão Communities."
       />
     </div>
   </section>
