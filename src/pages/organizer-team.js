@@ -1,14 +1,38 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Team from '../components/team'
 
-const SecondPage = () => (
-  <Layout>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+class OrganizerTeam extends React.Component {
 
-export default SecondPage
+  componentDidMount() {
+    document.querySelectorAll('.header-component .menu-item.organizer-team')[0].classList.add('active');
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+  
+  handleScroll() {
+    const position = window.pageYOffset;
+
+    if (window.innerWidth > 678) {
+      if (position > 160) {
+        document.getElementsByClassName('header-component')[0].classList.add('header-small');
+      } else {
+        document.getElementsByClassName('header-component').length > 0 && document.getElementsByClassName('header-component')[0].classList.remove('header-small');
+      }
+    }
+  }
+
+  render() {
+    return (
+      <Layout>
+        <Team />
+      </Layout>
+    )
+  }
+}
+
+export default OrganizerTeam

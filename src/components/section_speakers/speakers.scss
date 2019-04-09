@@ -71,7 +71,7 @@
     top: 0;
     transform: scale(0);
     color: #f2f2f2;
-    line-height: 1.7;
+    line-height: 1.5;
     text-align: center;
     font-family: sans-serif;
     font-size: 1.2em;
@@ -86,6 +86,9 @@
       0% 25%
     );
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    &.Erick, &.Miguel {
+      font-size: 0.8em;
+    }
   }
 
   &__content:hover &__description {
@@ -162,6 +165,9 @@
     }
     &__description {
       font-size: 0.9em;
+      &.Erick, &.Miguel {
+        font-size: 0.7em;
+      }
     }
     &__name {
       font-size: 0.8em;
@@ -175,6 +181,9 @@
     }
     &__description {
       font-size: 0.7em;
+      &.Erick, &.Miguel {
+        font-size: 0.5em;
+      }
     }
     &__name {
       font-size: 0.5em;
@@ -204,6 +213,11 @@
       max-width: 350px;
       max-height: 350px;
       margin-top: 0px;
+    }
+    &__description {
+      &.Erick, &.Miguel {
+        font-size: 0.6em;
+      }
     }
     .inner-wrap-desktop {
       flex-direction: column;
