@@ -166,8 +166,29 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 0;  
+        min-height: 0;
+        .section-sponsors-view__card {
+          .gatsby-image-wrapper {
+            width: 130px;
+            max-height: 130px;
+          }
+          &.getonboard, &.github {
+            .gatsby-image-wrapper {
+              width: 100px;
+              max-height: 100px;
+            }
+          }
+          &.nearform {
+            .gatsby-image-wrapper {
+              width: 140px;
+              max-height: 140px;
+            }
+          }
+        }
       }
+    }
+    .small {
+      width: fit-content;
     }
     .opportunity,
     .community,

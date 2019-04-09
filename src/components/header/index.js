@@ -88,12 +88,12 @@ class Header extends React.Component {
               Speakers
             </a>
           </div>
-          <Logo className="logo" />
           <div className="menu-item">
             <a href="#venue" title="Venue" onClick={e => this.scroll(e, 'venue')}>
               Venue
             </a>
           </div>
+          <Logo className="logo" />
           <div className="menu-item">
             <a
               href="#sponsors"
@@ -111,6 +111,11 @@ class Header extends React.Component {
             >
               Tickets
             </a>
+          </div>
+          <div className="menu-item schedule">
+            <Link to="/schedule">
+              Schedule
+            </Link>
           </div>
           <div className="menu-item organizer-team">
             <Link to="/organizer-team">
@@ -173,7 +178,12 @@ class Header extends React.Component {
                   Tickets
                 </a>
               </div>
-              <div className="menu-item">
+              <div className="menu-item schedule">
+                <Link to="/schedule">
+                  Schedule
+                </Link>
+              </div>
+              <div className="menu-item organizer-team">
                 <Link to="/organizer-team">
                   Organizer Team
                 </Link>

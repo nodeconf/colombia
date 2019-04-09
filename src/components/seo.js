@@ -75,6 +75,18 @@ function SEO({ description, lang, meta, keywords, title }) {
                 name: `og:image`,
                 content: data.site.siteMetadata.image
               },
+              {
+                name: `theme-color`,
+                content: '#97c33b'
+              },
+              {
+                name: `msapplication-navbutton-color`,
+                content: '#97c33b'
+              },
+              {
+                name: `apple-mobile-web-app-status-bar-style`,
+                content: '#97c33b'
+              }
             ]
               .concat(
                 keywords.length > 0

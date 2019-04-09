@@ -59,7 +59,7 @@ const SectionSponsors = () => (
           <div className="section-sponsors-view__card">
             <Microsoft />
           </div>
-          <div className="section-sponsors-view__card">
+          <div className="section-sponsors-view__card github">
             <Github />
           </div>
           <div className="section-sponsors-view__card nearform">
