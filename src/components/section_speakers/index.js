@@ -14,6 +14,7 @@ import CountryVe from '../images/country-ve'
 import CountryAr from '../images/country-ar'
 import CountryGr from '../images/country-ge'
 import CountryBr from '../images/country-br'
+import CountryUS from '../images/country-us'
 import Speaker from './speaker'
 
 import './speakers.scss'
@@ -35,14 +36,14 @@ const SectionSpeakers = () => (
       <Speaker
         name="Tierney Cyren"
         twitterUrl="https://twitter.com/bitandbang"
-        country={CountryGr}
+        country={CountryUS}
         figure={Bnb}
         description="Tierney is a member of the Node.js Community Committee, a Senior Cloud Developer Advocate at Microsoft, and a contributor to various initiatives in the Node.js project focusing on the continued growth and success of the Node.js community."
       />
       <Speaker
         name="Kat Marchán"
         twitterUrl="https://twitter.com/maybekatz"
-        country={CountryGr}
+        country={CountryUS}
         figure={Kat}
         description="npm CLI maintainer; tc39 delegate; wealljs admin; cat mom"
       />
@@ -51,14 +52,14 @@ const SectionSpeakers = () => (
       <Speaker
         name="James Snell"
         twitterUrl="https://twitter.com/jasnell"
-        country={CountryGr}
+        country={CountryUS}
         figure={James}
         description="nearForm Community Engineering Manager & Node.js TSC"
       />
       <Speaker
         name="Guillermo Rauch"
         twitterUrl="https://twitter.com/rauchg"
-        country={CountryGr}
+        country={CountryUS}
         figure={Rauch}
         description="Founder of ▲ZEIT, creator of Next.js and Socket.io"
       />
@@ -83,7 +84,7 @@ const SectionSpeakers = () => (
         twitterUrl="https://twitter.com/darking360"
         country={CountryVe}
         figure={Miguel}
-        description="An informatics engineering student for the last semester, I'm working on my thesis right now, implementing a sentiment analysis app powered by Node to talk with IBM Watson to help the services problems info in my city, focusing all the work towards the transformation of a traditional city into a smart city. I work as a Fullstack developer for Sancrisoft, I've worked for various clients in Colombia, Chile and Ireland, and right now we're working with an USA trucks client for a major startup in the US"
+        description="An informatics engineering student for the last semester, I'm working on my thesis right now, implementing a sentiment analysis app powered by Node to talk with IBM Watson to help the services problems info in my city, focusing all the work towards the transformation of a traditional city into a smart city. I work as a Fullstack developer for Sancrisoft, I've worked for various clients in Colombia, Chile and Ireland and US"
       />
     </div>
     <div className="inner-wrap-desktop single-speaker-row">
@@ -92,7 +93,7 @@ const SectionSpeakers = () => (
         twitterUrl="https://twitter.com/erickwendel_"
         country={CountryBr}
         figure={Erick}
-        description="Speaker, Software Consultant and community Co-organizer in Brazil. Named by Microsoft as Most Valuable Professional, and by Google as Google Developer Expert, a specialist in Node.js and Javascript Applications. He is a Software Independent Architect who helps companies to make better and cheaper applications using Serverless architectures, Container based applications, and Hybrid Cloud solutions. He has experience speaking and teaching at the biggest conferences in Brazil and the Americas, working as voluntary Leader of NodeBR, Javascript São Paulo and Nerdzão Communities."
+        description="Speaker, Software Consultant and community Co-organizer in Brazil. Named by Microsoft as Most Valuable Professional, and by Google as Google Developer Expert, a specialist in Node.js and Javascript Applications. He is a Software Independent Architect who helps companies to make better and cheaper applications using Serverless architectures, Container based applications, and Hybrid Cloud solutions."
       />
     </div>
   </section>

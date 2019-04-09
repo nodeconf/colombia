@@ -7,7 +7,9 @@ class Schedule extends React.Component {
 
   componentDidMount() {
     document.querySelectorAll('.header-component .menu-item.schedule')[0].classList.add('active');
+    console.log(document.querySelectorAll('.header-component .menu-item.schedule')[0]);
     window.addEventListener('scroll', this.handleScroll);
+    console.log('monto');
   }
 
   componentWillUnmount() {
