@@ -97,6 +97,24 @@
   clip-path: polygon(50% 0%, 85% 20%, 85% 75%, 50% 100%, 15% 75%, 15% 20%);
 }
 
+@media only screen and (max-width: 1100px) {
+  .Venue-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0;
+    .Venue-left, .Venue-img, .Venue-rutan {
+      position: initial;
+    }
+    .Venue-text {
+      padding: 0;
+    }
+    .Venue-img {
+      margin: 50px 0;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .Venue-component {
     flex-direction: column;

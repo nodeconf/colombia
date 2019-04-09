@@ -31,9 +31,14 @@
   .big {
     width: 80%;
     margin: auto;
-
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
     & > div {
       flex: 0 1 400px;
+    }
+    .section-sponsors-view__card {
+      max-width: 350px;
     }
   }
 
@@ -80,7 +85,6 @@
   // contenedor de cada imagen
   &__card {
     margin: 1em;
-    padding: 2em;
     flex: 1 0 100%;
   }
   &__content {
@@ -90,6 +94,7 @@
           background-color: #545561;
           padding: 10px !important;
           border-radius: 20px;
+          text-align: center;
         }
         &.nearform {
           .gatsby-image-wrapper {
@@ -99,6 +104,7 @@
         .gatsby-image-wrapper {
           width: 150px;
           max-height: 150px;
+          margin: auto;
           img {
             object-fit: contain !important;
           }
@@ -157,15 +163,45 @@
       width: 80%;
     }
   }
-
+  @media only screen and (max-width: 981px) {
+    .big {
+      justify-content: center;
+      .section-sponsors-view__card {
+        &:first-child {
+          margin: 50px 0;
+        }
+      }
+    }
+  }
   @media only screen and (max-width: 768px) {
     &__content {
       &.bottom {
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 0;  
+        min-height: 0;
+        .section-sponsors-view__card {
+          .gatsby-image-wrapper {
+            width: 130px;
+            max-height: 130px;
+          }
+          &.getonboard, &.github {
+            .gatsby-image-wrapper {
+              width: 100px;
+              max-height: 100px;
+            }
+          }
+          &.nearform {
+            .gatsby-image-wrapper {
+              width: 140px;
+              max-height: 140px;
+            }
+          }
+        }
       }
+    }
+    .small {
+      width: fit-content;
     }
     .opportunity,
     .community,
