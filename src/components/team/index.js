@@ -64,7 +64,7 @@ export default class Team extends Component {
                 <p>
                   Developer and Educator - Engineer at @NodeSource - Co-Organizer
                   at @Colombia_Dev, @JSConfCO, @NodeConfCO, @Suncoastjs, &
-                  @MedellinJS - Satán es la Cumbia 😈
+                  @MedellinJS - Satán es la Cumbia <span role="img" aria-label="emoji">😈</span>
                 </p>
 
                 <div className="team-role">
@@ -211,9 +211,9 @@ export default class Team extends Component {
               <div className="team-description">
                 <h3>Jonathan Avendaño</h3>
                 <p>
-                  //Coderiser (@coderiseorg) . Developer. Co-Organizer at
+                  Coderiser (@coderiseorg) . Developer. Co-Organizer at
                   @scaleconfco, @mde_devops, @jsconfco& @nodeconfco. Warrior &
-                  Weirdo 💛
+                  Weirdo <span role="img" aria-label="emoji">💛</span>
                 </p>
                 <div className="team-role">
                   <h4> Logistics / Opportunity </h4>
@@ -266,7 +266,7 @@ export default class Team extends Component {
               <div className="team-description">
                 <h3>Hamilton G. Moreno</h3>
                 <p>
-                  #Developer web🌐 and # Programmer.💻 Passionate about the Design and active tracking of #SoftwareLibre. 🐧
+                  #Developer web<span role="img" aria-label="emoji">🌐</span> and # Programmer.💻 Passionate about the Design and active tracking of #SoftwareLibre. <span role="img" aria-label="emoji">🐧</span>
                 </p>
                   <div className="team-role">
                     <h4> Team Web </h4>
@@ -293,7 +293,7 @@ export default class Team extends Component {
               <div className="team-description">
                 <h3>Stiwar Asprilla</h3>
                 <p>
-                  Developer web in progress 💻 passionate for the design web and app desktop 🖌️  
+                  Developer web in progress <span role="img" aria-label="emoji">💻</span> passionate for the design web and app desktop <span role="img" aria-label="emoji">🖌️  </span>
                 </p> 
                   <div className="team-role">
                     <h4> Team Web </h4>

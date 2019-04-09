@@ -59,7 +59,6 @@
       justify-content: center;
       margin: 2em auto;
       padding: .9em;
-      box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
       max-width: 400px;
 
     .team-data {
@@ -68,6 +67,7 @@
 
     .team-description {
       line-height: 1.9;
+      height: 270px;
 
       h3 {
         text-align: center;
@@ -86,6 +86,7 @@
         color: #484848;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
+        text-decoration: none;
       }
 
       .team-role {

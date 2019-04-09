@@ -1,5 +1,5 @@
 import React from 'react';
-import { navigate } from 'gatsby';
+import { navigate, Link } from 'gatsby';
 import { Swipeable } from 'react-swipeable'
 
 import Logo from '../images/image-logo';
@@ -112,6 +112,11 @@ class Header extends React.Component {
               Tickets
             </a>
           </div>
+          <div className="menu-item organizer-team">
+            <Link to="/organizer-team">
+              Organizer Team
+            </Link>
+          </div>
         </div>
       );
     }
@@ -167,6 +172,11 @@ class Header extends React.Component {
                 >
                   Tickets
                 </a>
+              </div>
+              <div className="menu-item">
+                <Link to="/organizer-team">
+                  Organizer Team
+                </Link>
               </div>
             </div>
           </span>

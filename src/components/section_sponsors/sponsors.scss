@@ -90,6 +90,7 @@
           background-color: #545561;
           padding: 10px !important;
           border-radius: 20px;
+          text-align: center;
         }
         &.nearform {
           .gatsby-image-wrapper {
@@ -99,6 +100,7 @@
         .gatsby-image-wrapper {
           width: 150px;
           max-height: 150px;
+          margin: auto;
           img {
             object-fit: contain !important;
           }
