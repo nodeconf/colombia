@@ -19,12 +19,22 @@ const SectionSponsors = () => (
     <article className="section-sponsors-view__content">
       <div className="section-sponsors-view__medal  platinum">Platinum</div>
       <div className="section-sponsors-view__data  big">
-        <div className="section-sponsors-view__card">
+        <a
+          className="section-sponsors-view__card"
+          href="https://nodesource.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Nodesource />
-        </div>
-        <div className="section-sponsors-view__card">
+        </a>
+        <a
+          className="section-sponsors-view__card"
+          href="https://www.rutanmedellin.org/es/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Rutan />
-        </div>
+        </a>
       </div>
     </article>
 
@@ -32,39 +42,74 @@ const SectionSponsors = () => (
       <article className="section-sponsors-view__content bottom">
         <h3 className="section-sponsors-view__tag  opportunity">Opportunity Supporter</h3>
         <div className="section-sponsors-view__data  small">
-          <div className="section-sponsors-view__card getonboard">
+          <a
+            className="section-sponsors-view__card getonboard"
+            href="https://www.getonbrd.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GetOnBoard />
-          </div>
+          </a>
         </div>
       </article>
 
       <article className="section-sponsors-view__content bottom">
         <h3 className="section-sponsors-view__tag  community">Community Parners</h3>
         <div className="section-sponsors-view__data  small">
-          <div className="section-sponsors-view__card">
+          <a
+            className="section-sponsors-view__card"
+            href="https://changelog.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Changelog />
-          </div>
-          <div className="section-sponsors-view__card">
+          </a>
+          <a
+            className="section-sponsors-view__card"
+            href="https://nodeconf.com.ar/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Nodeconfarg />
-          </div>
-          <div className="section-sponsors-view__card">
+          </a>
+          <a
+            className="section-sponsors-view__card"
+            href="https://nodebr.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Nodebr />
-          </div>
-          </div>
+          </a>
+        </div>
       </article>
 
       <article className="section-sponsors-view__content bottom">
         <h3 className="section-sponsors-view__tag  travel">Travel Parners</h3>
         <div className="section-sponsors-view__data  small">
-          <div className="section-sponsors-view__card">
+          <a
+            className="section-sponsors-view__card"
+            href="https://www.microsoft.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Microsoft />
-          </div>
-          <div className="section-sponsors-view__card github">
+          </a>
+          <a
+            className="section-sponsors-view__card github"
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Github />
-          </div>
-          <div className="section-sponsors-view__card nearform">
+          </a>
+          <a
+            className="section-sponsors-view__card nearform"
+            href="https://www.nearform.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Nearform />
-          </div>
+          </a>
         </div>
       </article>
     </div>

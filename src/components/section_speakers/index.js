@@ -15,6 +15,7 @@ import CountryAr from '../images/country-ar'
 import CountryGr from '../images/country-ge'
 import CountryBr from '../images/country-br'
 import CountryUS from '../images/country-us'
+import CountryPr from '../images/country-pr'
 import Speaker from './speaker'
 
 import './speakers.scss'
@@ -43,7 +44,7 @@ const SectionSpeakers = () => (
       <Speaker
         name="Kat Marchán"
         twitterUrl="https://twitter.com/maybekatz"
-        country={CountryUS}
+        country={CountryPr}
         figure={Kat}
         description="npm CLI maintainer; tc39 delegate; wealljs admin; cat mom"
       />
@@ -59,7 +60,7 @@ const SectionSpeakers = () => (
       <Speaker
         name="Guillermo Rauch"
         twitterUrl="https://twitter.com/rauchg"
-        country={CountryUS}
+        country={CountryAr}
         figure={Rauch}
         description="Founder of ▲ZEIT, creator of Next.js and Socket.io"
       />

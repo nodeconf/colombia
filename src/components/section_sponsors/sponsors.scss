@@ -31,9 +31,12 @@
   .big {
     width: 80%;
     margin: auto;
-
+    margin-bottom: 50px;
     & > div {
       flex: 0 1 400px;
+    }
+    .section-sponsors-view__card {
+      max-width: 300px;
     }
   }
 
@@ -80,7 +83,6 @@
   // contenedor de cada imagen
   &__card {
     margin: 1em;
-    padding: 2em;
     flex: 1 0 100%;
   }
   &__content {
