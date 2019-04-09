@@ -46,23 +46,59 @@
   &__description{
     line-height: 1.9;
     font-size: .9em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
   }
 
-  &__content-ticket{ width: 300px; }
+  &__content-ticket{ width: 300px;}
 
   &__card-ticket{
     display: block;
     margin: 1em;
-    padding: 1em;
-    background-color: #F3B011;
+    padding: 1em;    
+    background-color: #97c33b;
+    color: #f2f2f2; 
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover{
+      background-color: #52c75a;
+    }
+    
+    
+  }
+.ticket-soul-out{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+  &__out-ticket{
+    display: block;
+    margin: 1em;
+    padding: .5em;
+    background-color: #CF850B;
     color: #484848; 
     text-align: center;
     font-family: sans-serif;
     text-decoration: none;
-    &:hover {
-      background-color: #d89f17;
+    cursor:default;
+
+  }
+
+  &__soul{
+    font-size: .9em;
+    text-align: center;
+    font-weight: 700;
+    
+    &:hover{
+      box-shadow: #E3920C;
     }
   }
+
 
   &__price{ font-weight: 700; }
 
@@ -79,7 +115,7 @@
     transition: .4s all;
     text-decoration: none;
 
-    &:hover{
+    &:hover{      
       background-color: #52c75a;
     }
     .icon-row-rigth {
