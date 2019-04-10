@@ -12,7 +12,7 @@
     &.single-speaker-row {
       margin-top: -90px;
     }
-    &.second-speaker-row{
+    &.second-speaker-row {
       margin-top: -90px;
     }
   }
@@ -23,7 +23,7 @@
     font-size: 39px;
     text-align: center;
     color: #484848;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
   }
 
   &__content {
@@ -49,35 +49,32 @@
     );
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   }
-
   &__img:before {
     position: absolute;
-    content: '';
+    content: "";
     display: block;
     width: 100%;
     height: 100%;
     background-color: #121112;
     opacity: 0.5;
   }
-
   /* movimiento - muestra la descripcion del speaker */
-
   &__description {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em;
+    padding: 2em;
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
     transform: scale(0);
     color: #f2f2f2;
-    line-height: 1.7;
+    line-height: 1.8;
     text-align: center;
     font-family: sans-serif;
-    font-size: 1.2em;
+    font-size: .8em;
     transition: 0.8s all ease-in-out;
     text-align: center;
     -webkit-clip-path: polygon(
@@ -90,34 +87,30 @@
     );
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   }
-
   &__content:hover &__description {
     transform: scale(1);
     background-color: #121112;
   }
-
   &__data {
     position: absolute;
     top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
   &__name {
     cursor: pointer;
     position: relative;
     font-family: sans-serif;
-    font-size: 1.125em;
+    font-size: 4.5em;
     color: #f2f2f2;
     letter-spacing: 2px;
     transition: 0.6s all ease-in-out;
-    padding: 0.3em;
+    padding: 0.15em;
   }
-
   &__content:hover &__name {
     background-color: #52c75a;
+    border-radius: 4px;
   }
-
   &__social {
     display: flex;
     justify-content: space-around;
@@ -126,13 +119,11 @@
     width: 100px;
     margin-top: 0.7em;
     cursor: pointer;
-
     & i {
       font-size: 1.3em;
       display: block;
       color: #f2f2f2;
       transition: 0.4s all;
-
       & {
         color: #52c75a;
       }
@@ -141,7 +132,6 @@
       text-decoration: none;
     }
   }
-
   &__country {
     position: absolute;
     top: 0;
@@ -150,11 +140,9 @@
     width: 30px;
     transform: rotate(-45deg);
   }
-
   .z-index-1000 {
     z-index: 1000;
   }
-
   @media only screen and (max-width: 1280px) {
     &__content {
       height: 300px;
@@ -169,8 +157,10 @@
     &__name {
       font-size: 0.8em;
     }
-  }
 
+    
+
+  }
   @media only screen and (max-width: 980px) {
     &__content {
       height: 200px;
@@ -182,27 +172,26 @@
     &__name {
       font-size: 0.5em;
       padding: 0;
-      height: 20px;
+      height: 25px;
       display: flex;
       align-items: center;
       justify-content: center;
     }
     &__country {
-      left: -40px;
+      left: -34px;
     }
     .inner-wrap-desktop {
       &.additional-row {
         margin-top: -60px;
       }
       &.single-speaker-row {
-        margin-top: -10px;
+        margin-top: 0px;
       }
-      &.second-speaker-row{
-        margin-top: -6px;
+      &.second-speaker-row {
+        margin-top: 0px;
       }
     }
   }
-
   @media only screen and (max-width: 768px) {
     &__content {
       height: 250px;
@@ -210,6 +199,7 @@
       max-width: 350px;
       max-height: 350px;
       margin-top: 0px;
+      
     }
     .inner-wrap-desktop {
       flex-direction: column;
@@ -217,15 +207,48 @@
       &.additional-row {
         margin-top: 0;
       }
+      &.single-speaker-row {
+        margin-top: 0px;
+      }
+      &.second-speaker-row {
+        margin-top: 0px;
+      }
     }
   }
-
   @media (min-width: 769px) {
+    
     .inner-wrap-desktop {
       flex-wrap: wrap;
       flex-direction: row;
       align-items: baseline;
       justify-content: center;
+
+      &.additional-row {
+        margin-top: -60px;
+      }
+      &.single-speaker-row {
+        margin-top: -60px;
+      }
+      &.second-speaker-row {
+        margin-top: -60px;
+      }
     }
+    &__description {
+      font-size: 0.7em;
+    }
+    &__name {
+      font-size: 0.8em;
+      padding: 1px;
+      height: 22px;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__country {
+      left: -30px;
+      top: -10px;
+    
   }
+}
 }
