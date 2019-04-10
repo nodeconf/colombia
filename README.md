@@ -12,10 +12,6 @@ More information coming soon
 - Nicolle Jimenez - [@NicolleJimenez](https://github.com/NicolleJimenez)
 - Sebastián Vélez - [@jvelezpo](https://github.com/jvelezpo)
 
-
-## Template rights
-© 2020 - The Nutrition Diet Coach. All Rights Reserved.
-
 ## Contact us
 hola@nodeconf.co
 
