@@ -71,3 +71,12 @@
 .icon-cancel:before {
   content: "\6a";
 }
+.icon-facebook:before {
+  content: "\6b";
+}
+.icon-facebook-alt:before {
+  content: "\6c";
+}
+.icon-instagram:before {
+  content: "\6d";
+}
