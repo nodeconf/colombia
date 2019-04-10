@@ -103,15 +103,6 @@ class Header extends React.Component {
               Sponsors
             </a>
           </div>
-          <div className="menu-item">
-            <a
-              href="#tickets"
-              title="Tickets"
-              onClick={e => this.scroll(e, 'tickets')}
-            >
-              Tickets
-            </a>
-          </div>
           <div className="menu-item schedule">
             <Link to="/schedule">
               Schedule
@@ -121,6 +112,16 @@ class Header extends React.Component {
             <Link to="/organizer-team">
               Organizer Team
             </Link>
+          </div>
+          <div className="menu-item">
+            <a
+              href="#tickets"
+              title="Tickets"
+              className="tag-tickets"
+              onClick={e => this.scroll(e, 'tickets')}
+            >
+              Tickets
+            </a>
           </div>
         </div>
       );
@@ -169,15 +170,6 @@ class Header extends React.Component {
                   Sponsors
                 </a>
               </div>
-              <div className="menu-item">
-                <a
-                  href="#tickets"
-                  title="Tickets"
-                  onClick={e => this.scrollMobile(e, 'tickets')}
-                >
-                  Tickets
-                </a>
-              </div>
               <div className="menu-item schedule">
                 <Link to="/schedule">
                   Schedule
@@ -187,6 +179,16 @@ class Header extends React.Component {
                 <Link to="/organizer-team">
                   Organizer Team
                 </Link>
+              </div>
+              <div className="menu-item">
+                <a
+                  href="#tickets"
+                  title="Tickets"
+                  className="tag-tickets-mobile"
+                  onClick={e => this.scrollMobile(e, 'tickets')}
+                >
+                  Tickets
+                </a>
               </div>
             </div>
           </span>

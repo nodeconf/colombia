@@ -20,7 +20,13 @@
     }
 
     .menu-item {
-      margin: 0 20px;
+      // margin: 0 10px;
+      min-width: 10%;
+      // text-align: center;
+      white-space: nowrap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       a {
         text-decoration: none;
         color: #515151;
@@ -35,6 +41,27 @@
           border-bottom: 3px solid #9dc533;
           padding-bottom: 5px;
           border-radius: 2px;
+        }
+      }
+      .tag-tickets {
+        position: relative;
+        color: #FFF;
+        font-weight: 700;
+        &::after {
+          content: '';
+          position: absolute;
+          background-color: #52C75A;
+          display: block;
+          left: 50%;
+          top: 10%;
+          padding: .9em .5em; 
+          width: 90px;
+          height: 95px;
+          transform: translate(-50%, -10%);
+          z-index: -100;
+          padding: .9em .4em;
+          -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 43%, 56% 75%, 46% 75%, 0 44%, 0 0);
+          clip-path: polygon(50% 0%, 100% 0, 100% 43%, 56% 75%, 46% 75%, 0 44%, 0 0);
         }
       }
     }
@@ -59,7 +86,7 @@
         width: 70px;
       }
       .menu-item {
-        margin: 0 10px;
+        // margin: 0 10px;
         a {
           font-size: 0.8rem;
         }
@@ -71,7 +98,7 @@
           width: 70px;
         }
         .menu-item {
-          margin: 0 10px;
+          // margin: 0 10px;
           a {
             font-size: 0.8rem;
           }
@@ -227,6 +254,19 @@
                   width: 100%;
                   font-size: 15px;
                   height: 40px;
+                }
+                .tag-tickets-mobile {
+                  position: relative;
+                  color: #fff;
+                  font-weight: 700;
+                  background-color: #52C75A;
+                  -webkit-clip-path: polygon(30% 16%, 70% 16%, 100% 41%, 100% 60%, 70% 80%, 30% 80%, 0 60%, 0 39%);
+                  clip-path: polygon(30% 16%, 70% 16%, 100% 41%, 100% 60%, 70% 80%, 30% 80%, 0 60%, 0 39%);
+                  display: block;
+                  width: 150px;
+                  height: 95px;
+                  line-height: 95px;
+                  text-align: center;
                 }
               }
               .main-nav_item {
