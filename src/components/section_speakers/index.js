@@ -57,7 +57,7 @@ const SectionSpeakers = () => (
       <Speaker
         name="James Snell"
         twitterUrl="https://twitter.com/jasnell"
-        country={CountryGr}
+        country={CountryUs}
         figure={James}
         description="nearForm Community Engineering Manager & Node.js TSC"
       />
@@ -89,7 +89,7 @@ const SectionSpeakers = () => (
         twitterUrl="https://twitter.com/darking360"
         country={CountryVe}
         figure={Miguel}
-        description="An informatics engineering student for the last semester, I'm working on my thesis right now, implementing a sentiment analysis app powered by Node to talk with IBM Watson to help the services problems info in my city, focusing all the work towards the transformation of a traditional city into a smart city. I work as a Fullstack developer for Sancrisoft, I've worked for various clients in Colombia, Chile and Ireland, and right now we're working with an USA trucks client for a major startup in the US"
+        description="An informatics engineering student for the last semester, I'm working on my thesis right now, implementing a sentiment analysis app powered by Node to talk with IBM Watson to help the services problems info in my city, focusing all the work towards the transformation of a traditional city into a smart city."
       />
     </div>
     <div className="inner-wrap-desktop single-speaker-row">
@@ -98,7 +98,7 @@ const SectionSpeakers = () => (
         twitterUrl="https://twitter.com/erickwendel"
         country={CountryBr}
         figure={Erick}
-        description="Speaker, Software Consultant and community Co-organizer in Brazil. Named by Microsoft as Most Valuable Professional, and by Google as Google Developer Expert, a specialist in Node.js and Javascript Applications. He is a Software Independent Architect who helps companies to make better and cheaper applications using Serverless architectures, Container based applications, and Hybrid Cloud solutions. He has experience speaking and teaching at the biggest conferences in Brazil and the Americas, working as voluntary Leader of NodeBR, Javascript São Paulo and Nerdzão Communities."
+        description="Speaker, Software Consultant and community Co-organizer in Brazil. Named by Microsoft as Most Valuable Professional, and by Google as Google Developer Expert, a specialist in Node.js and Javascript Applications. Also working as voluntary Leader of NodeBR, Javascript São Paulo and Nerdzão Communities."
       />
       <Speaker
         name="Matt Podwysocki"
@@ -125,7 +125,7 @@ const SectionSpeakers = () => (
       />
       <Speaker
         name="Kevin Ball"
-        twitterUrl="https://twitter.com/kbal11?s=09"
+        twitterUrl="https://twitter.com/kbal11"
         country={CountryUs}
         figure={Kevin}
         description="Web Front-end Consultant and Trainer. Panelist @JSPartyFM. Former lead @ZURBFoundation. Coffee addict. He/Him."

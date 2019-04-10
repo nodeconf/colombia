@@ -109,8 +109,8 @@ class Header extends React.Component {
             </Link>
           </div>
           <div className="menu-item organizer-team">
-            <Link to="/organizer-team">
-              Organizer Team
+            <Link to="/organizers">
+              Organizing Team
             </Link>
           </div>
           <div className="menu-item tickets">

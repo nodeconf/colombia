@@ -19,7 +19,7 @@ export default class Team extends Component {
 
         <div className="team-top"></div>
 
-        <h2>ORGANIZER TEAM</h2>
+        <h2>ORGANIZING TEAM</h2>
 
         <div className="team-content">
 
@@ -44,7 +44,7 @@ export default class Team extends Component {
                   </div>
 
                 </div>
-                
+
               </div>
 
             </div>
@@ -60,15 +60,15 @@ export default class Team extends Component {
               </figure>
 
               <div className="team-description">
-                <h3>Julian Duque</h3>
+                <h3>Julián Duque</h3>
                 <p>
                   Developer and Educator - Engineer at @NodeSource - Co-Organizer
                   at @Colombia_Dev, @JSConfCO, @NodeConfCO, @Suncoastjs, &
-                  @MedellinJS - Satán es la Cumbia <span role="img" aria-label="emoji">😈</span>
+                  @MedellinJS - #EStreamerCoders <span role="img" aria-label="emoji">😈</span>
                 </p>
 
                 <div className="team-role">
-                  <h4> Finances / Logistics </h4>
+                  <h4> Finance / Logistics </h4>
                   <div className="Social">
                     <a href="https://twitter.com/julian_duque" rel="noopener noreferrer">
                       <i className="icon-twitter" />
@@ -132,7 +132,7 @@ export default class Team extends Component {
               </p>
                 <div className="team-role">
                   <h4> Finances / Content </h4>
-                
+
                 <div className="Social">
                   <a
                     href="https://twitter.com/edsadr"
@@ -188,7 +188,7 @@ export default class Team extends Component {
                 </p>
                 <div className="team-role">
                   <h4> Opportunity / Communication </h4>
-                
+
                   <div className="Social">
                     <a
                       href="https://twitter.com/nicole_jimenez"
@@ -270,7 +270,7 @@ export default class Team extends Component {
                 </p>
                   <div className="team-role">
                     <h4> Team Web </h4>
-                  
+
                   <div className="Social">
                     <a
                       href="https://twitter.com/MiltonCode"
@@ -294,10 +294,10 @@ export default class Team extends Component {
                 <h3>Stiwar Asprilla</h3>
                 <p>
                   Developer web in progress <span role="img" aria-label="emoji">💻</span> passionate for the design web and app desktop <span role="img" aria-label="emoji">🖌️  </span>
-                </p> 
+                </p>
                   <div className="team-role">
                     <h4> Team Web </h4>
-                  
+
                   <div className="Social">
                     <a
                       href="https://twitter.com/AsprillaStiwar"
@@ -312,7 +312,7 @@ export default class Team extends Component {
           </article>
 
         </div>
-        
+
       </div>
     );
   }

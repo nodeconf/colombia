@@ -15,7 +15,7 @@ class Schedule extends React.Component {
   componentWillUnmount() {
     window.removeEventListener('scroll', this.handleScroll);
   }
-  
+
   handleScroll() {
     const position = window.pageYOffset;
 
@@ -31,7 +31,7 @@ class Schedule extends React.Component {
   render() {
     return (
       <Layout>
-        <div style={{height: '50vh', display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize: '40px', marginTop: '180px'}}>We are working for you...</div>
+        <div style={{height: '50vh', display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize: '40px', marginTop: '180px'}}>We are working on it, stay tuned!</div>
       </Layout>
     )
   }
