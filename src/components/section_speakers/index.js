@@ -67,7 +67,7 @@ const SectionSpeakers = () => (
     </div>
     <div className="inner-wrap-desktop additional-row">
       <Speaker
-        name="Diego Paes"
+        name="Diego Paez"
         twitterUrl="https://twitter.com/carax"
         country={CountryAr}
         figure={Diego}

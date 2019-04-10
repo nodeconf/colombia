@@ -19,27 +19,26 @@ const SectionSpeakers = () => (
 
       <div className="inner-wrap-desktop">
         <div className="section-tickets__content-ticket">
-          <a href="https://ti.to/nodeconfco/2019" className="section-tickets__card-ticket" target="_blank">
+          <a href="https://ti.to/nodeconfco/2019" className="section-tickets__card-ticket" target="_blank" rel="noopener noreferrer">
             <div className="section-tickets__info">Regular Tickets</div>            
             <div className="section-tickets__price">$ 125</div>
           </a>
         </div>
       <div className="ticket-soul-out">
         <div className="section-tickets__content-ticket">
-          <a href="" className="section-tickets__out-ticket" target="_blank">
+          <div className="section-tickets__out-ticket" target="_blank">
             <div className="section-tickets__info">Early Bird Tickets</div>            
             <div className="section-tickets__price">$ 100</div>
             <div className="section-tickets__soul">SOUL OUT</div>
-            
-          </a>
+          </div>
         </div>
         
         <div className="section-tickets__content-ticket">
-          <a href="" className="section-tickets__out-ticket" target="_blank">
+          <div className="section-tickets__out-ticket" target="_blank">
             <div className="section-tickets__info">Second Early Bird Tickets</div>            
             <div className="section-tickets__price">$ 100</div>
             <div className="section-tickets__soul">SOUL OUT</div>
-          </a>
+          </div>
         </div>
         </div>
       </div>
