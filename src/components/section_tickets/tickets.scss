@@ -24,14 +24,22 @@
   color: #f2f2f2;
   // font-family: sans-serif;
   font-weight: 400;
+  p{
+    line-height: 1.4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding-top: 60px;
+    font-weight: 400;
+  }
   }
 
   &__title{
     margin: 50px 0;
-    font-size: 2.25em;
+    //font-size: 2.25em;
     text-align: center;
     color: #484848;
-    // font-family: sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-size: 42px;
     font-weight: 700;
   }
 

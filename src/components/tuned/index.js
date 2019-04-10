@@ -13,6 +13,12 @@ export default class Tuned extends React.Component {
             <a href="https://twitter.com/nodeconfco" target="_blank" rel="noopener noreferrer">
               <i className="icon-twitter" />
             </a>
+            <a href="https://www.facebook.com/nodeconfco/" target="_blank" rel="noopener noreferrer">
+              <i className="icon-facebook-alt" />
+            </a>
+            <a href="https://www.instagram.com/nodeconf_co/" target="_blank" rel="noopener noreferrer">
+              <i className="icon-instagram" />
+            </a>
           </div>
         </div>
         <form
