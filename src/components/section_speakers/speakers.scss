@@ -10,7 +10,10 @@
       margin-top: -90px;
     }
     &.single-speaker-row {
-      margin-top: 0;
+      margin-top: -90px;
+    }
+    &.second-speaker-row{
+      margin-top: -90px;
     }
   }
 
@@ -193,6 +196,9 @@
       }
       &.single-speaker-row {
         margin-top: -10px;
+      }
+      &.second-speaker-row{
+        margin-top: -6px;
       }
     }
   }
