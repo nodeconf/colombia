@@ -107,6 +107,7 @@ class Header extends React.Component {
             <a
               href="#tickets"
               title="Tickets"
+              className="tag-tickets"
               onClick={e => this.scroll(e, 'tickets')}
             >
               Tickets
@@ -173,6 +174,7 @@ class Header extends React.Component {
                 <a
                   href="#tickets"
                   title="Tickets"
+                  className="tag-tickets-mobile"
                   onClick={e => this.scrollMobile(e, 'tickets')}
                 >
                   Tickets
