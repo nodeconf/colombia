@@ -88,11 +88,5 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# Gastby Static files
-public/static/
-
-# Gastby Public files
-public/
-
 # map files
 *.js.map
