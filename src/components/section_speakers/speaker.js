@@ -7,7 +7,7 @@ export default class speaker extends React.Component {
         <figure className="section-speakers__img">
           {this.props.figure()}
         </figure>
-        <div className={`section-speakers__description ${this.props.name}`}>
+        <div className="section-speakers__description">
           {this.props.description}
         </div>
         <div className="section-speakers__data">
