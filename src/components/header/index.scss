@@ -42,11 +42,18 @@
           padding-bottom: 5px;
           border-radius: 2px;
         }
+        .tag-tickets {
+          border: none;
+        }
       }
       .tag-tickets {
+        border: none;
         position: relative;
         color: #FFF;
         font-weight: 700;
+        &:hover {
+          color: #515151;
+        }
         &::after {
           content: '';
           position: absolute;
@@ -89,6 +96,15 @@
         // margin: 0 10px;
         a {
           font-size: 0.8rem;
+        }
+        &.tickets {
+          min-width: 8%;
+          .tag-tickets{
+            font-size: 0.7rem;
+            &:after {
+              width: 60px;
+            }
+          }
         }
       }
       &.header-small {
