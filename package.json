@@ -33,7 +33,7 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "deploy": "gatsby build && gh-pages -d public -b master",
-     "now-build": "npm run build"
+    "now-build": "npm run build"
   },
   "devDependencies": {
     "prettier": "^1.15.2"

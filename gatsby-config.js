@@ -5,7 +5,7 @@ module.exports = {
     description: `NodeConf Colombia 2019 is the first international event focused on the entire Node.js ecosystem.
     It’s a non-profit event, where our attendees will be sharing in an environment of inclusion and respect, having access to relevant information through talks, workshops, and great experiences with the Colombian Node community.`,
     author: `@NodeConfCo`,
-    image: 'https://colombia.nodeconf.com/assets/images/social.png',
+    image: 'https://raw.githubusercontent.com/nodeconf/colombia/d5eaf4bba41a10a7a02f40ff28320207046c18a7/assets/images/social.png',
     url: 'https://colombia.nodeconf.com/'
   },
   pathPrefix: "/",

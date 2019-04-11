@@ -8,6 +8,7 @@ import Microsoft from '../images/sponsor_microsoft';
 import Github from '../images/sponsor_github';
 import Nearform from '../images/sponsor_nearform';
 import GetOnBoard from '../images/sponsor_getOnBoard';
+import Inalambria from '../images/sponsor_inalambria';
 import Rutan from '../images/sponsor_example_rutan-grey';
 
 import './sponsors.scss';
@@ -49,6 +50,16 @@ const SectionSponsors = () => (
             rel="noopener noreferrer"
           >
             <GetOnBoard />
+          </a>
+        </div>
+        <div className="section-sponsors-view__data  small">
+          <a
+            className="section-sponsors-view__card inalambria"
+            href="https://www.inalambria.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Inalambria />
           </a>
         </div>
       </article>
