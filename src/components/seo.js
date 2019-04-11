@@ -9,7 +9,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       query={detailsQuery}
       render={data => {
         const metaDescription = description || data.site.siteMetadata.description
-        console.log('data.site.siteMetadata', data.site.siteMetadata);
+        const image = data.site.siteMetadata.image || 'https://raw.githubusercontent.com/nodeconf/colombia/d5eaf4bba41a10a7a02f40ff28320207046c18a7/assets/images/social.png'
         return (
           <Helmet
             htmlAttributes={ { lang } }              
@@ -50,7 +50,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `twitter:image`,
-                content: data.site.siteMetadata.image
+                content: image
               },
               {
                 name: `twitter:url`,
@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 name: `og:image`,
-                content: data.site.siteMetadata.image
+                content: image
               },
               {
                 name: `theme-color`,
