@@ -9,6 +9,7 @@ import Github from '../images/sponsor_github';
 import Nearform from '../images/sponsor_nearform';
 import GetOnBoard from '../images/sponsor_getOnBoard';
 import Inalambria from '../images/sponsor_inalambria';
+import P4S from '../images/sponsor_p4s';
 import Rutan from '../images/sponsor_example_rutan-grey';
 
 import './sponsors.scss';
@@ -90,6 +91,14 @@ const SectionSponsors = () => (
             rel="noopener noreferrer"
           >
             <Nodebr />
+          </a>
+          <a
+            className="section-sponsors-view__card"
+            href="https://p4s.co/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <P4S />
           </a>
         </div>
       </article>
