@@ -124,7 +124,7 @@ export default class Team extends Component {
             </figure>
 
             <div className="team-description">
-              <h3>Adrian Estrada</h3>
+              <h3>Adrián Estrada</h3>
               <p>
                 Developer in love with Node.js, thirsty for new technologies,
                 working at @NodeSource - organizer @MedellinJS, @JSConfCO and
@@ -155,9 +155,9 @@ export default class Team extends Component {
               </figure>
 
               <div className="team-description">
-                <h3>Diego Rodriguez</h3>
+                <h3>Diego Rodríguez B.</h3>
                 <p>
-                  Software Engineer & Researcher. Node.js and Open Source Advocate
+                  Software Engineer & Researcher. Node.js and Open Source Advocate.
                 </p>
                 <div className="team-role">
                   <h4> Content </h4>
@@ -182,7 +182,7 @@ export default class Team extends Component {
               </figure>
 
               <div className="team-description">
-                <h3>Nicole Jimenez</h3>
+                <h3>Nicole Jiménez</h3>
                 <p>
                   Full stack software engineer at Elizabeth&Clarke
                 </p>
