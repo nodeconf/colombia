@@ -182,7 +182,7 @@ export default class Team extends Component {
               </figure>
 
               <div className="team-description">
-                <h3>Nicole Jiménez</h3>
+                <h3>Nicolle Jiménez</h3>
                 <p>
                   Full stack software engineer at Elizabeth&Clarke
                 </p>
