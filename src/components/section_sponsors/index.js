@@ -66,7 +66,7 @@ const SectionSponsors = () => (
       </article>
 
       <article className="section-sponsors-view__content bottom">
-        <h3 className="section-sponsors-view__tag  community">Community Parners</h3>
+        <h3 className="section-sponsors-view__tag  community">Community Partners</h3>
         <div className="section-sponsors-view__data  small">
           <a
             className="section-sponsors-view__card"

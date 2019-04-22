@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-// import Schedule from '../components/page_schedule'
+import ScheduleComponent from '../components/page_schedule'
 
 class Schedule extends React.Component {
 
@@ -9,7 +9,6 @@ class Schedule extends React.Component {
     document.querySelectorAll('.header-component .menu-item.schedule')[0].classList.add('active');
     console.log(document.querySelectorAll('.header-component .menu-item.schedule')[0]);
     window.addEventListener('scroll', this.handleScroll);
-    console.log('monto');
   }
 
   componentWillUnmount() {
@@ -31,10 +30,11 @@ class Schedule extends React.Component {
   render() {
     return (
       <Layout>
-        <div style={{height: '50vh', display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize: '40px', marginTop: '180px'}}>We are working on it, stay tuned!</div>
+        <ScheduleComponent />
       </Layout>
-    )
+      )
+    }
   }
-}
-
-export default  Schedule
+  
+  export default  Schedule
+  

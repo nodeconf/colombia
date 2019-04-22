@@ -5,6 +5,7 @@
   --color-social : #57c057;
   --bg-color-start : #214FA3;
   --bg-color-end : #CF2E23;
+  --bg-color-after-party : #97c33b;
 }
 
 
@@ -88,6 +89,9 @@
     color: var(--color-subtitle);
   }
 
+  &__speaker-social a {
+    text-decoration: none;
+  }
   &__speaker-social i {
     color: var(--color-social);
     font-size: 1.5em;
@@ -135,6 +139,7 @@
   }
   .start-event { background-color: var(--bg-color-start); }
   .end-event{ background-color: var(--bg-color-end); }
+  .after-party{ background-color: var(--bg-color-after-party); }
 
   &__ul {
     margin-top: 0;
