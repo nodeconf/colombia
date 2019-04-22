@@ -117,7 +117,10 @@
     font-size: 1.5em;
   }
 
-  &__description { font-size: 1em; }
+  &__description {
+    font-size: 1em;
+    text-align: left;
+  }
 
   &__start-time, &__end-time {
     margin: .8em !important;
@@ -166,7 +169,12 @@
       top: 10%; 
     }
 
-    &__content { max-width: 80%; }
+    &__content {
+      max-width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     &__card { 
       margin: 2em;
@@ -219,13 +227,28 @@
       max-width: 100px
     }
 
-    &__icon { display: none; }
-
     &__start-time,
     &__end-time {
       margin-top: .2em;
       margin-bottom: .2em;
     }
   }
+}
 
+@media only screen and (max-width: 550px) {
+  .section-schedule {
+    &__card {
+      display: flex;
+      flex-direction: column;
+      &.single {
+        flex-direction: row;
+      }
+    }
+    &__speaker-content {
+      padding-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }

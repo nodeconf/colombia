@@ -3,7 +3,7 @@ import React from 'react'
 export default function SingleEvent(props) {
   return (
     <li className="section-schedule__li">
-      <article className="section-schedule__card">
+      <article className="section-schedule__card single">
         <div className="section-schedule__data">
           <div className="section-schedule__start-time">{props.from}</div>
           {props.to &&

@@ -29,7 +29,6 @@ const PageSchedule = () => (
         <TalkEvent
           from="9:00am"
           {...speakers.anna}
-          description="Anna re-builds a simple Node.js core feature from scratch on stage, giving insight into the internals of Node.js and the process around making changes to Node core."
         />
         <TalkEvent
           from="9:30am"
@@ -49,7 +48,6 @@ const PageSchedule = () => (
         <TalkEvent
           from="11:00am"
           {...speakers.james}
-          description="Work is currently underway to develop an implementation of the new QUIC protocol with Node.js core. While still very experimental and new, this protocol will enable exciting new possibilities and applications. This talk will introduce the fundamentals of QUIC and the prototype implementation being developed."
         />
         <TalkEvent
           from="11:30am"
@@ -74,7 +72,6 @@ const PageSchedule = () => (
         <TalkEvent
           from="2:30pm"
           {...speakers.tierney}
-          description="Your apps are insecure. Not because of third-party dependenceis, but because of the runtime itself. Node.js actively ships security updates, patching publicly disclosed vulnerabilities... and you're not shipping them into production. This talk will go over how you can manage Node.js versions for production to ensure that you're always safe."
         />
         <TalkEvent
           from="3:00pm"

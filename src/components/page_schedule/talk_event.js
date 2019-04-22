@@ -18,10 +18,9 @@ export default function TalkEvent(props) {
         <div className="section-schedule__information">
           <div className="section-schedule__data">
             <div className="section-schedule__start-time">{props.from}</div>
-            <div className="section-schedule__icon"><i className="icon-right"></i></div>
           </div>
           <h3 className="section-schedule__activity">{props.talkName}</h3>
-          <p className="section-schedule__description">{props.description}</p>
+          <p className="section-schedule__description" dangerouslySetInnerHTML={{ __html: props.talkDesc }}/>
         </div>
       </article>
     </li>
