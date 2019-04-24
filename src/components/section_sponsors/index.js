@@ -52,8 +52,7 @@ const SectionSponsors = () => (
           >
             <GetOnBoard />
           </a>
-        </div>
-        <div className="section-sponsors-view__data  small">
+        
           <a
             className="section-sponsors-view__card inalambria"
             href="https://www.inalambria.com/"
@@ -61,6 +60,15 @@ const SectionSponsors = () => (
             rel="noopener noreferrer"
           >
             <Inalambria />
+          </a>
+        
+          <a
+            className="section-sponsors-view__card github"
+            href="https://github.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Github />
           </a>
         </div>
       </article>
