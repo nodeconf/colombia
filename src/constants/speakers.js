@@ -120,9 +120,9 @@ export const speakers = {
     twitterUrl: 'https://twitter.com/maybekatz',
     country: CountryPr,
     figure: Kat,
-    talkName: 'TBD',
+    talkName: 'tink: A next generation package manager for JavaScript',
     description: 'npm CLI maintainer; tc39 delegate; wealljs admin; cat mom',
-    talkDesc: ''
+    talkDesc: 'tink is a new package manager by the npm team that explores a new paradigm for managing JavaScript dependencies: shared cache that eliminates most of node_modules, faster install times, ESM support, and more!'
   },
   guillermo: {
     name: 'Guillermo Rauch',
