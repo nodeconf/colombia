@@ -10,6 +10,7 @@ import Nearform from '../images/sponsor_nearform';
 import GetOnBoard from '../images/sponsor_getOnBoard';
 import Inalambria from '../images/sponsor_inalambria';
 import P4S from '../images/sponsor_p4s';
+import Monoku from '../images/sponsor_monoku';
 import Rutan from '../images/sponsor_example_rutan-grey';
 
 import './sponsors.scss';
@@ -69,6 +70,15 @@ const SectionSponsors = () => (
             rel="noopener noreferrer"
           >
             <Github />
+          </a>
+
+          <a
+            className="section-sponsors-view__card monoku"
+            href="https://monoku.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Monoku />
           </a>
         </div>
       </article>

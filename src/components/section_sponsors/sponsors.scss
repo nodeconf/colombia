@@ -90,6 +90,13 @@
   &__content {
     &.bottom {
       .section-sponsors-view__card {
+        &.github {
+          img {
+            width: 80% !important;
+            margin: auto;
+            right: 0;
+          }
+        }
         &.getonboard {
           background-color: #545561;
           padding: 10px !important;
