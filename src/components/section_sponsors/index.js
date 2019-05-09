@@ -12,6 +12,8 @@ import Inalambria from '../images/sponsor_inalambria';
 import P4S from '../images/sponsor_p4s';
 import Monoku from '../images/sponsor_monoku';
 import Rutan from '../images/sponsor_example_rutan-grey';
+import PSL from '../images/sponsor_psl';
+import Genius from '../images/sponsor_genius';
 
 import './sponsors.scss';
 
@@ -20,8 +22,8 @@ const SectionSponsors = () => (
     <h2 className="section-sponsors-view__title">Sponsors</h2>
 
     <article className="section-sponsors-view__content">
-      <div className="section-sponsors-view__medal  platinum">Platinum</div>
-      <div className="section-sponsors-view__data  big">
+      <div className="section-sponsors-view__medal platinum">Platinum</div>
+      <div className="section-sponsors-view__data big">
         <a
           className="section-sponsors-view__card"
           href="https://nodesource.com/"
@@ -41,10 +43,32 @@ const SectionSponsors = () => (
       </div>
     </article>
 
+    <article className="section-sponsors-view__content">
+      <div className="section-sponsors-view__medal gold">Gold</div>
+      <div className="section-sponsors-view__data big">
+        <a
+          className="section-sponsors-view__card psl"
+          href="https://psl.com.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <PSL />
+        </a>
+        <a
+          className="section-sponsors-view__card genius"
+          href="https://www.geniussports.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Genius />
+        </a>
+      </div>
+    </article>
+
     <div className="inner-wrap-desktop">
       <article className="section-sponsors-view__content bottom">
-        <h3 className="section-sponsors-view__tag  opportunity">Opportunity Supporter</h3>
-        <div className="section-sponsors-view__data  small">
+        <h3 className="section-sponsors-view__tag opportunity">Opportunity Supporter</h3>
+        <div className="section-sponsors-view__data small">
           <a
             className="section-sponsors-view__card getonboard"
             href="https://www.getonbrd.com"
