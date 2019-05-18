@@ -7,10 +7,17 @@ import { speakers } from '../../constants/speakers'
 export default function Day2() {
   return (
     <ul className="section-schedule__ul">
+      <h2>June 22nd</h2>
       <SingleEvent
         from="8:00am"
-        to="8:30am"
+        to="8:50am"
         text="Registration and snacks"
+        eventColor="red"
+      />
+      <SingleEvent
+        from="8:50am"
+        to="9:00am"
+        text="Opening Event"
       />
       <TalkEvent
         from="9:00am"
@@ -29,6 +36,7 @@ export default function Day2() {
         from="10:30am"
         to="11:00am"
         text="Break y snacks"
+        eventColor="red"
       />
 
       <TalkEvent
@@ -48,11 +56,13 @@ export default function Day2() {
         from="12:30pm"
         to="1:00pm"
         text="Lunch"
+        eventColor="red"
       />
       <SingleEvent
         from="1:30pm"
         to="2:00pm"
-        text="Panel"
+        text="Node.js Panel"
+        eventColor="green"
       />
 
       <TalkEvent
@@ -72,6 +82,7 @@ export default function Day2() {
         from="4:00pm"
         to="4:30pm"
         text="Break y snacks"
+        eventColor="red"
       />
 
       <TalkEvent
