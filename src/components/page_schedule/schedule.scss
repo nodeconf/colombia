@@ -129,9 +129,14 @@
     border-radius: 10px;
     color: #f2f2f2;
   }
-  .start-event { background-color: var(--bg-color-start); }
+  .start-event {
+    background-color: var(--bg-color-start);
+  }
   .end-event{ background-color: var(--bg-color-end); }
   .after-party{ background-color: var(--bg-color-after-party); }
+  .green {
+    background-color: #52C75A;   
+  }
 
   &__ul {
     margin-top: 0;
@@ -220,6 +225,21 @@
     &__end-time {
       margin-top: .2em;
       margin-bottom: .2em;
+    }
+  }
+  .day-picker {
+    .pick-day {
+      cursor: pointer;
+      background-color: #214fa3;
+      padding: .5em;
+      border-radius: 10px;
+      color: #f2f2f2;
+      margin: 0 10px;
+      min-width: 90px;
+      font-weight: bold;
+      &:hover {
+        background-color: #4d7dd4;
+      }
     }
   }
 }
