@@ -141,5 +141,13 @@ export const speakers = {
     talkName: '',
     description: 'Web Front-end Consultant and Trainer. Panelist @JSPartyFM. Former lead @ZURBFoundation. Coffee addict. He/Him.',
     talkDesc: ''
+  },
+  jesus: {
+    name: 'Jesús David Sanchez, Software Engineer @ PSL',
+    country: CountryCol,
+    figure: Kevin,
+    talkName: 'Construyendo chatbots escalables y multi-lenguaje dese cero',
+    description: '',
+    talkDesc: 'En este workshop práctico aprenderemos cómo construir un proyecto escalable y  multi-lenguaje  para múltiples plataformas desde la perspectiva de un chatbot. Compartiremos nuestra experiencia en proyectos similares, buenas practicas y nuestras recomendaciones sobre qué no hacer.'
   }
 }

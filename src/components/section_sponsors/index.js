@@ -48,7 +48,7 @@ const SectionSponsors = () => (
       <div className="section-sponsors-view__data big">
         <a
           className="section-sponsors-view__card psl"
-          href="https://psl.com.co/"
+          href="https://www.pslcorp.com/?utm_source=nodeconf&utm_medium=referral&utm_campaign=nodeconfwebsite"
           target="_blank"
           rel="noopener noreferrer"
         >

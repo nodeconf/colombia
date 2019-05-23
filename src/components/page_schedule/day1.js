@@ -1,6 +1,8 @@
 import React from 'react'
 
 import SingleEvent from './single_event'
+import TalkEvent from './talk_event'
+import { speakers } from '../../constants/speakers'
 
 export default function Day1() {
   return (
@@ -14,22 +16,23 @@ export default function Day1() {
       />
       <SingleEvent
         from="10:00am"
-        to="12:00am"
+        to="12:00m"
         text="Workshop by NodeSource"
       />
       <SingleEvent
         from="10:00am"
-        to="12:00am"
+        to="12:00m"
         text="Workshop by Genius Sports"
       />
-      <SingleEvent
+      <TalkEvent
+        workshop="Workshop by PSL"
         from="10:00am"
-        to="12:00am"
-        text="Workshop by Genius PSL"
+        to="12:00m"
+        {...speakers.jesus}
       />
       <SingleEvent
         from="10:00am"
-        to="12:00am"
+        to="12:00m"
         text="NodeSchool by MedellinJS"
         eventColor="green"
       />
