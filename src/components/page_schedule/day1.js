@@ -14,10 +14,11 @@ export default function Day1() {
         text="Registration and snacks"
         eventColor="red"
       />
-      <SingleEvent
+      <TalkEvent
+        workshop="Workshop by NodeSource"
         from="10:00am"
         to="12:00m"
-        text="Workshop by NodeSource"
+        {...speakers.ns}
       />
       <SingleEvent
         from="10:00am"

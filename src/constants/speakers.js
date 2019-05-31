@@ -149,5 +149,28 @@ export const speakers = {
     talkName: 'Construyendo chatbots escalables y multi-lenguaje dese cero',
     description: '',
     talkDesc: 'En este workshop práctico aprenderemos cómo construir un proyecto escalable y  multi-lenguaje  para múltiples plataformas desde la perspectiva de un chatbot. Compartiremos nuestra experiencia en proyectos similares, buenas practicas y nuestras recomendaciones sobre qué no hacer.'
+  },
+  ns: {
+    name: '',
+    country: CountryCol,
+    figure: Kevin,
+    talkName: 'Profile & Analyze Node.js Applications like a Pro',
+    description: '',
+    talkDesc: 'Aprenderemos a analizar y diagnosticar gráficos relevantes en el mundo de Node.js como flamegraphs y Heapsnapshot, dándonos el poder de entender el CPU profile, la memorias. soportaremos notificaciones en webhooks.'
   }
 }
+
+
+// # [Workshop] - Profiling & Analysis Node.js Applications like a Pro
+// Aprenderemos a analizar y diagnosticar gráficos relevantes en el mundo de Node.js como flamegraphs y Heapsnapshot, dándonos el poder de entender el CPU profile, la memorias. soportaremos notificaciones en webhooks.
+
+// Ejercicios
+// Identificar Idle en Profiles. (esperando un recurso de un backend)
+// Abuso de State Managers. (Observables/Redux)
+// Server Side Rendering. (Performance/Cost)
+// Bloqueo de Event Loop. (Notificaciones)
+// Uso de recursos y Out of Memory en Node.js. (Limites/Garbage Collection)
+// Requisitos
+// Node.js (min v8.x)
+// Docker
+// Editor Texto
