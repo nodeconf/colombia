@@ -14,6 +14,7 @@ import Monoku from '../images/sponsor_monoku';
 import Rutan from '../images/sponsor_example_rutan-grey';
 import PSL from '../images/sponsor_psl';
 import Genius from '../images/sponsor_genius';
+import UruIT from '../images/sponsor_uruit';
 
 import './sponsors.scss';
 
@@ -103,6 +104,15 @@ const SectionSponsors = () => (
             rel="noopener noreferrer"
           >
             <Monoku />
+          </a>
+
+          <a
+            className="section-sponsors-view__card uruit"
+            href="https://www.uruit.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <UruIT />
           </a>
         </div>
       </article>
