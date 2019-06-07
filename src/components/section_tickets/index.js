@@ -19,10 +19,11 @@ const SectionSpeakers = () => (
 
       <div className="inner-wrap-desktop">
         <div className="section-tickets__content-ticket">
-          <a href="https://ti.to/nodeconfco/2019" className="section-tickets__card-ticket" target="_blank" rel="noopener noreferrer">
+          <div className="section-tickets__out-ticket" target="_blank">
             <div className="section-tickets__info">Late Bird</div>
             <div className="section-tickets__price">$ 130</div>
-          </a>
+            <div className="section-tickets__soul">SOLD OUT</div>
+          </div>
         </div>
         <div className="ticket-soul-out">
           <div className="section-tickets__content-ticket">
