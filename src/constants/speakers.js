@@ -135,7 +135,7 @@ export const speakers = {
     talkDesc: ''
   },
   ruben: {
-    name: 'Ruben ',
+    name: 'Ruben Bridgewater',
     twitterUrl: 'https://twitter.com/bridgear',
     country: CountryGr,
     figure: Ruben,
