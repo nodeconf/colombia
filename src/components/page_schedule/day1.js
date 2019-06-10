@@ -20,6 +20,12 @@ export default function Day1() {
         to="12:00m"
         {...speakers.ns}
       />
+      <TalkEvent
+        workshop="Workshop by Genius Sports"
+        from="10:00am"
+        to="12:00m"
+        {...speakers.geniusSports}
+      />
       <SingleEvent
         from="10:00am"
         to="12:00m"

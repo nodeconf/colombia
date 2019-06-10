@@ -7,6 +7,7 @@ import Bnb from "../components/images/speaker_bnb";
 import Kat from "../components/images/speaker_kat";
 import James from "../components/images/speaker_james";
 import Rauch from "../components/images/speaker_rauch";
+import Ruben from "../components/images/speaker_ruben";
 import Matt from "../components/images/speaker_matt";
 import Ujjwal from "../components/images/speaker_ujjwal";
 import Vladimir from "../components/images/speaker_vladimir";
@@ -133,6 +134,16 @@ export const speakers = {
     description: 'Founder of ▲ZEIT, creator of Next.js and Socket.io',
     talkDesc: ''
   },
+  ruben: {
+    name: 'Ruben ',
+    twitterUrl: 'https://twitter.com/bridgear',
+    country: CountryGr,
+    figure: Ruben,
+    talkName: 'Error handling: doing it right!',
+    description: 'Node.js core collaborator and a freelance software architect consultant. His main emphasis is building powerful and easy-to-use APIs for scalable and fast applications. He is continuously working with the V8 team and the TC39 committee to improve the developer experience with JavaScript.',
+    talkDesc: `A journey into the asynchronous debugging horrors, how to avoid them and what patterns can be used to ease the life of each developer debugging applications.
+    <br/><br/>We all have run into issues debugging JavaScript. Knowing what went wrong due to missing stack traces in asynchronous contexts and finding the actual issue takes way too long. Especially code with promises can be tedious to debug. Following best practices in error handling reduces debugging time and improves the code base a lot!`
+  },
   kevin: {
     name: 'Kevin Ball',
     twitterUrl: 'https://twitter.com/kbal11',
@@ -146,7 +157,7 @@ export const speakers = {
     name: 'Jesús David Sanchez, Software Engineer @ PSL',
     country: CountryCol,
     figure: Kevin,
-    talkName: 'Construyendo chatbots escalables y multi-lenguaje dese cero',
+    talkName: 'Construyendo chatbots escalables y multi-lenguaje desde cero',
     description: '',
     talkDesc: 'En este workshop práctico aprenderemos cómo construir un proyecto escalable y  multi-lenguaje  para múltiples plataformas desde la perspectiva de un chatbot. Compartiremos nuestra experiencia en proyectos similares, buenas practicas y nuestras recomendaciones sobre qué no hacer.'
   },
@@ -157,6 +168,19 @@ export const speakers = {
     talkName: 'Profile & Analyze Node.js Applications like a Pro',
     description: '',
     talkDesc: 'Aprenderemos a analizar y diagnosticar gráficos relevantes en el mundo de Node.js como flamegraphs y Heapsnapshot, dándonos el poder de entender el CPU profile, la memorias. soportaremos notificaciones en webhooks.'
+  },
+  geniusSports: {
+    name: '',
+    country: CountryCol,
+    figure: Kevin,
+    talkName: 'Deploying services continuously',
+    description: '',
+    talkDesc: `We will be deploying a a small set of services onto Istio, using canary releases and traffic shifting to safely roll the services out.
+    <br/><br/>We will talk about identifying KPI's for node web servers and detecting deviation from the norm.
+    <br/><br/>We will show examples of performance tests that can be run in advance of releases on lower environments using Gatling
+    <br/><br/>Examples linking these releases to Gitlab pipelines will be provided that you can apply yourself after the fact.
+    <br/><br/>Time based monitoring using prometheus/grafana  and setting up detailed dashboards that help you identify issues.
+    <br/><br/>We will supply code examples and scripts to setup your cluster on AWS and seed a gitlab pipeline`
   }
 }
 

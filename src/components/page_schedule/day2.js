@@ -91,11 +91,11 @@ export default function Day2() {
       />
       <TalkEvent
         from="5:00pm"
-        {...speakers.kat}
+        {...speakers.ruben}
       />
       <TalkEvent
         from="5:30pm"
-        {...speakers.guillermo}
+        {...speakers.kat}
       />
 
       <SingleEvent

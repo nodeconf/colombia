@@ -16,7 +16,7 @@ const SectionSpeakers = () => (
     </div>
     <div className="inner-wrap-desktop additional-row">
       <Speaker {...speakers.james} />
-      <Speaker {...speakers.guillermo} />
+      <Speaker {...speakers.ruben} />
     </div>
     <div className="inner-wrap-desktop additional-row">
       <Speaker {...speakers.diego} />
