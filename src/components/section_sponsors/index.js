@@ -14,6 +14,7 @@ import Rutan from '../images/sponsor_example_rutan-grey';
 import PSL from '../images/sponsor_psl';
 import Genius from '../images/sponsor_genius';
 import UruIT from '../images/sponsor_uruit';
+import Acamica from '../images/sponsor_acamica';
 
 import './sponsors.scss';
 
@@ -61,6 +62,20 @@ const SectionSponsors = () => (
           rel="noopener noreferrer"
         >
           <Genius />
+        </a>
+      </div>
+    </article>
+
+    <article className="section-sponsors-view__content">
+      <div className="section-sponsors-view__medal silver">Silver</div>
+      <div className="section-sponsors-view__data big">
+        <a
+          className="section-sponsors-view__card acamica"
+          href="https://www.acamica.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Acamica />
         </a>
       </div>
     </article>

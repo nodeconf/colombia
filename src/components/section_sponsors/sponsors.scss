@@ -45,6 +45,9 @@
       &.genius {
         max-width: 240px;
       }
+      &.acamica {
+        max-width: 270px;
+      }
     }
   }
 
@@ -114,6 +117,17 @@
           .gatsby-image-wrapper {
             width: 200px;
           }
+        }
+        &.monoku {
+          img {
+            margin-bottom: 0;
+          }
+        }
+        &.uruit {
+          margin-top: 0;
+        }
+        &.monoku {
+          margin-bottom: 0;
         }
         .gatsby-image-wrapper {
           width: 150px;
