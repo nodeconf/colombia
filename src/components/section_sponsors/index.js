@@ -15,6 +15,7 @@ import PSL from '../images/sponsor_psl';
 import Genius from '../images/sponsor_genius';
 import UruIT from '../images/sponsor_uruit';
 import Acamica from '../images/sponsor_acamica';
+import Rappi from '../images/sponsor_rappi';
 
 import './sponsors.scss';
 
@@ -62,6 +63,14 @@ const SectionSponsors = () => (
           rel="noopener noreferrer"
         >
           <Genius />
+        </a>
+        <a
+          className="section-sponsors-view__card rappi"
+          href="https://www.rappi.com.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Rappi />
         </a>
       </div>
     </article>
