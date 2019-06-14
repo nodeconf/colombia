@@ -1,4 +1,5 @@
 import React from 'react';
+import CountDown from '../countdown';
 
 import './index.scss';
 
@@ -10,7 +11,10 @@ const TopInfo = () => {
           <div>NodeConf</div>
           <div>Colombia 2019</div>
           <div>
-            <a href="https://ti.to/nodeconfco/2019" target="_blank" className="get-your-tickets" rel="noopener noreferrer">Get your tickets <span className="right-arrow">></span></a>
+            <CountDown
+              timeTillDate="06 21 2019" 
+              timeFormat="MM DD YYYY, h:mm a"
+            />
           </div>
         </div>
       </div>
