@@ -60,7 +60,7 @@ export const speakers = {
     talkDesc: 'Work is currently underway to develop an implementation of the new QUIC protocol with Node.js core. While still very experimental and new, this protocol will enable exciting new possibilities and applications. This talk will introduce the fundamentals of QUIC and the prototype implementation being developed.'
   },
   andrea: {
-    name: 'Andrea Griffinths',
+    name: 'Andrea Griffiths',
     twitterUrl: 'https://twitter.com/AlaColombia',
     country: CountryCol,
     figure: Andrea,
