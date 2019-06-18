@@ -39,7 +39,8 @@ export const speakers = {
     figure: Diego,
     talkName: 'Building up on Dat',
     description: 'JS developer with a Computer Science degree and a passion for HCI. He was born in the southernmost place in America, Tierra del Fuego but he is living in La Plata these days where he co-founded GEUT along with Martin and Max. He also loves the community, in fact, in 2014 he co-founded LaPlataJS a local JS community.',
-    talkDesc: 'Let’s imagine together a better future where users own their data and they know whom they are sharing with. No middleman. Let’s think about a future with resilient and decentralized communities of peers. Sounds interesting? Now let’s go a bit further, imagine the kind of apps or services that can be run on these networks. Communities will surely benefit from that. Sounds empowering, doesn’t it? It is, very much indeed! Start building the future today using Dat.'
+    talkDesc: 'Let’s imagine together a better future where users own their dat
+    nd they know whom they are sharing with. No middleman. Let’s think about a future with resilient and decentralized communities of peers. Sounds interesting? Now let’s go a bit further, imagine the kind of apps or services that can be run on these networks. Communities will surely benefit from that. Sounds empowering, doesn’t it? It is, very much indeed! Start building the future today using Dat.'
   },
   matt: {
     name: 'Matt Podwysocki',
@@ -175,7 +176,7 @@ export const speakers = {
     figure: Kevin,
     talkName: 'Deploying services continuously',
     description: '',
-    talkDesc: `We will be deploying a a small set of services onto Istio, using canary releases and traffic shifting to safely roll the services out.
+    talkDesc: `We will be deploying a small set of services onto Istio, using canary releases and traffic shifting to safely roll the services out.
     <br/><br/>We will talk about identifying KPI's for node web servers and detecting deviation from the norm.
     <br/><br/>We will show examples of performance tests that can be run in advance of releases on lower environments using Gatling
     <br/><br/>Examples linking these releases to Gitlab pipelines will be provided that you can apply yourself after the fact.
@@ -188,7 +189,7 @@ export const speakers = {
     figure: Kevin,
     talkName: 'Construyendo backend de alto procesamiento y concurrencia desde cero',
     description: '',
-    talkDesc: `Crearemos desde cero una aplicación backend que se conecte con nuestro front usando autenticación básica, usaremos el api de amazon para descargar un archivo en un bucket S3 y lo procesaremos con oboe, hablaremos de como realizar las transacciones e inserciones a la base de datos sin matar la memoria de tu servidor, usaremos docker para virtualizar nuestra aplicación y levantar los servicios del front y la base de datos, hablaremos de buenas practicas, documentación ágil con Api Docs y que no hacer al momento de crear aplicaciones backend`
+    talkDesc: `Crearemos desde cero una aplicación backend que se conecte con nuestro front usando autenticación básica, usaremos el api de amazon para descargar un archivo en un bucket S3 y lo procesaremos con oboe, hablaremos de como realizar las transacciones e inserciones a la base de datos sin matar la memoria de tu servidor, usaremos docker para virtualizar nuestra aplicación y levantar los servicios del front y la base de datos, hablaremos de buenas prácticas, documentación ágil con Api Docs y que no hacer al momento de crear aplicaciones backend`
   }
 }
 
