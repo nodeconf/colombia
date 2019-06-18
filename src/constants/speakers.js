@@ -181,6 +181,14 @@ export const speakers = {
     <br/><br/>Examples linking these releases to Gitlab pipelines will be provided that you can apply yourself after the fact.
     <br/><br/>Time based monitoring using prometheus/grafana  and setting up detailed dashboards that help you identify issues.
     <br/><br/>We will supply code examples and scripts to setup your cluster on AWS and seed a gitlab pipeline`
+  },
+  rappi: {
+    name: '',
+    country: CountryCol,
+    figure: Kevin,
+    talkName: 'Construyendo backend de alto procesamiento y concurrencia desde cero',
+    description: '',
+    talkDesc: `Crearemos desde cero una aplicación backend que se conecte con nuestro front usando autenticación básica, usaremos el api de amazon para descargar un archivo en un bucket S3 y lo procesaremos con oboe, hablaremos de como realizar las transacciones e inserciones a la base de datos sin matar la memoria de tu servidor, usaremos docker para virtualizar nuestra aplicación y levantar los servicios del front y la base de datos, hablaremos de buenas practicas, documentación ágil con Api Docs y que no hacer al momento de crear aplicaciones backend`
   }
 }
 
