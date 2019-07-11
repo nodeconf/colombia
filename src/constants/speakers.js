@@ -39,8 +39,8 @@ export const speakers = {
     figure: Diego,
     talkName: 'Building up on Dat',
     description: 'JS developer with a Computer Science degree and a passion for HCI. He was born in the southernmost place in America, Tierra del Fuego but he is living in La Plata these days where he co-founded GEUT along with Martin and Max. He also loves the community, in fact, in 2014 he co-founded LaPlataJS a local JS community.',
-    talkDesc: 'Let’s imagine together a better future where users own their dat
-    nd they know whom they are sharing with. No middleman. Let’s think about a future with resilient and decentralized communities of peers. Sounds interesting? Now let’s go a bit further, imagine the kind of apps or services that can be run on these networks. Communities will surely benefit from that. Sounds empowering, doesn’t it? It is, very much indeed! Start building the future today using Dat.'
+    talkDesc: `Let’s imagine together a better future where users own their dat
+    nd they know whom they are sharing with. No middleman. Let’s think about a future with resilient and decentralized communities of peers. Sounds interesting? Now let’s go a bit further, imagine the kind of apps or services that can be run on these networks. Communities will surely benefit from that. Sounds empowering, doesn’t it? It is, very much indeed! Start building the future today using Dat.`
   },
   matt: {
     name: 'Matt Podwysocki',

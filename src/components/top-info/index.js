@@ -1,5 +1,4 @@
 import React from 'react';
-import CountDown from '../countdown';
 
 import './index.scss';
 
@@ -10,12 +9,6 @@ const TopInfo = () => {
         <div className="data">
           <div>NodeConf</div>
           <div>Colombia 2019</div>
-          <div>
-            <CountDown
-              timeTillDate="06 21 2019" 
-              timeFormat="MM DD YYYY, h:mm a"
-            />
-          </div>
         </div>
       </div>
       <div className="dates">
