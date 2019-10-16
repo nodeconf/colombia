@@ -1,0 +1,21 @@
+.stamp_co {
+  height: 250px;
+  margin-right: 20px;
+  padding: 0 5px;
+  padding-top: 15px;
+}
+@media (max-width: 30em) {
+  .stamp_co {
+    margin-top: 40px;
+  }
+  .information {
+    border-left: 0;
+  }
+  .details {
+    flex-wrap: wrap;
+  }
+  .sub-title {
+    align-items: flex-start;
+    flex-direction: column;
+}
+}
