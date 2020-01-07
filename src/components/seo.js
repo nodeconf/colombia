@@ -1,106 +1,73 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+/**
+ * SEO component that queries for data with
+ *  Gatsby's useStaticQuery React hook
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
 
-function SEO({ description, lang, meta, keywords, title }) {
+import React from "react"
+import PropTypes from "prop-types"
+import Helmet from "react-helmet"
+import { useStaticQuery, graphql } from "gatsby"
+
+function SEO({ description, lang, meta, title }) {
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+            description
+            author
+          }
+        }
+      }
+    `
+  )
+
+  const metaDescription = description || site.siteMetadata.description
+
   return (
-    <StaticQuery
-      query={detailsQuery}
-      render={data => {
-        const metaDescription = description || data.site.siteMetadata.description
-        const image = data.site.siteMetadata.image || 'https://raw.githubusercontent.com/nodeconf/colombia/d5eaf4bba41a10a7a02f40ff28320207046c18a7/assets/images/social.png'
-        return (
-          <Helmet
-            htmlAttributes={ { lang } }              
-            title={title}
-            titleTemplate={data.site.siteMetadata.title}
-            meta={[
-              {
-                name: `description`,
-                content: metaDescription,
-              },
-              {
-                property: `og:title`,
-                content: data.site.siteMetadata.titleShort,
-              },
-              {
-                property: `og:description`,
-                content: metaDescription,
-              },
-              {
-                property: `og:type`,
-                content: `website`,
-              },
-              {
-                name: `twitter:card`,
-                content: `summary_large_image`,
-              },
-              {
-                name: `twitter:creator`,
-                content: data.site.siteMetadata.author,
-              },
-              {
-                name: `twitter:title`,
-                content: data.site.siteMetadata.titleShort
-              },
-              {
-                name: `twitter:description`,
-                content: metaDescription,
-              },
-              {
-                name: `twitter:image`,
-                content: image
-              },
-              {
-                name: `twitter:url`,
-                content: data.site.siteMetadata.url
-              },
-              {
-                name: `og:type`,
-                content: `website`
-              },
-              {
-                name: `og:url`,
-                content: data.site.siteMetadata.url
-              },
-              {
-                name: `og:title`,
-                content: data.site.siteMetadata.titleShort
-              },
-              {
-                name: `og:description`,
-                content: metaDescription
-              },
-              {
-                name: `og:image`,
-                content: image
-              },
-              {
-                name: `theme-color`,
-                content: '#97c33b'
-              },
-              {
-                name: `msapplication-navbutton-color`,
-                content: '#97c33b'
-              },
-              {
-                name: `apple-mobile-web-app-status-bar-style`,
-                content: '#97c33b'
-              }
-            ]
-              .concat(
-                keywords.length > 0
-                  ? {
-                      name: `keywords`,
-                      content: keywords.join(`, `),
-                    }
-                  : []
-              )
-              .concat(meta)}
-          />
-        )
+    <Helmet
+      htmlAttributes={{
+        lang,
       }}
+      title={title}
+      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      meta={[
+        {
+          name: `description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:title`,
+          content: title,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:title`,
+          content: title,
+        },
+        {
+          name: `twitter:description`,
+          content: metaDescription,
+        },
+      ].concat(meta)}
     />
   )
 }
@@ -108,27 +75,14 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [],
+  description: ``,
 }
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
-  meta: PropTypes.array,
-  keywords: PropTypes.arrayOf(PropTypes.string),
+  meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 }
 
 export default SEO
-
-const detailsQuery = graphql`
-  query DefaultSEOQuery {
-    site {
-      siteMetadata {
-        title
-        description
-        author
-      }
-    }
-  }
-`

@@ -1,0 +1,100 @@
+.menu-component {
+  .menu {
+    text-transform: uppercase;
+    padding: 45px 12px;
+    height: 350px;
+    background: #258a45b7;
+    position: fixed;
+    top: 20%;
+    clip-path: polygon(0 0, 100% 15%, 100% 85%, 0% 100%);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+
+    .link-section {
+      cursor: pointer;
+      width: fit-content;
+      line-height: 2;
+      color: var(--four);
+      &:hover {
+        border-bottom: 2px solid;
+      }
+    }
+
+    @media only screen and (max-width: 1354px) {
+      display: none;
+    }
+  }
+
+  .menu-mobile {
+    display: none;
+
+    @media only screen and (max-width: 1354px) {
+      display: initial;
+      
+      #myLinks {
+        opacity: 0;
+        background-color: darken(#258a45b7, 8);
+        clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+
+        color: var(--v-primary);
+        padding: 50px 0px;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.5s ease-in-out;
+        transform: translateY(-130%);
+        text-align: center;
+        text-transform: uppercase;
+
+        &.open {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        .link-section {
+          margin: 0 auto;
+          width: 50%;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 500;
+          color: var(--four);
+          transition: .3s ease-in;
+          &:hover{
+            color: var(--p-primary);
+            background-color: var(--four);
+          }
+        }
+      }
+    }
+
+    .icon {
+      position: fixed;
+      right: 1px;
+      top: 0;
+      font-size: 35px;  
+      background-color: lighten(#258A45, .1);
+      color: var(--four);
+      border: none;
+      z-index: 100;
+      clip-path: polygon(50% 0%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+
+      & i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 5px 8px 5px;
+      }
+
+      &.focused {
+        background: var(--primary);
+        border: none;
+        color: var(--v-primary);
+      }
+    }
+  }
+}

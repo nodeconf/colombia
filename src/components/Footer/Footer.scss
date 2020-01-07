@@ -1,0 +1,21 @@
+.footer-component {
+  clip-path: polygon(50% 0%, 100% 20%, 100% 100%, 50% 100%, 0 100%, 0 20%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--v-primary);
+  background-color: var(--primary);
+  text-align: center;
+
+  a {
+    color: var(--v-primary);
+    font-weight: var(--bold);
+
+    &:hover {
+      color: var(--third);
+      text-decoration: underline;
+    }
+  }
+}

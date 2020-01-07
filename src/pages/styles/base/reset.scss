@@ -1,0 +1,37 @@
+*,
+*::before,
+*::After {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.7;
+}
+
+h1, h2, h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

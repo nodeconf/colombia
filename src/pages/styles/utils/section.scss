@@ -1,0 +1,28 @@
+// estilos para los titulos y descripcion de cada sesion
+
+.section__title {
+    margin-top: 0;
+    margin-bottom: em(16px);
+    font-size: em(38px);
+    text-align: center;
+    font-family: var(--font-title);
+    font-weight: var(--bold);
+    text-transform: uppercase;
+  
+    @media only screen and (min-width : 1024px){
+      font-size: em(42px);
+    }
+  }
+  
+  .section__description {
+    text-align: center;
+    margin-top: em(16px);
+    margin-bottom: em(16px);
+    
+    @media only screen and (min-width : 1024px){
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;   
+    }
+  }
+  

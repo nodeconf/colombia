@@ -1,0 +1,191 @@
+.contact-us-component {
+  &.contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .stay-tuned {
+
+      .title {
+        color: var(--four);
+        text-align: left;
+      }
+
+      .email {
+
+        input {
+          padding: 0 var(--gutter);
+          height: 48px;
+          border: none;
+          color: var(--v-secondary);
+          background-color: var(--v-primary);
+          font-family: var(--font-subtitle);
+          &:focus {
+            outline: none;
+          }
+        }
+        button {
+          display: inline-block;
+          height: 48px;
+          border: none;
+          color: var(--p-primary);
+          background-color: var(--four);
+          font-family: var(--font-subtitle);
+          cursor: pointer;
+          padding: 0 15px;
+          &:focus {
+            outline: none;
+            opacity: 0.7;
+          }
+        }
+
+        form {
+          margin-bottom: 0;
+        }
+        .success {
+          font-size: medium;
+          padding-top: 0.7rem;
+          color: var(--primary);
+        }
+        .error {
+          font-size: medium;
+          padding-top: 0.7rem;
+          color: red;
+          max-width: 326px;
+          a {
+            color: var(--primary);
+          }
+        }
+      }
+
+      .social {
+        margin-top: 1.45rem;
+        display: flex;
+        justify-content: space-between;
+
+        .social-icon {
+          clip-path: polygon(
+            50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%
+          );
+          background-color: var(--third);
+          color: var(--v-primary);
+          height: 60px;
+          width: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-right: 10px;
+          cursor: pointer;
+          @media only screen and (min-width: 414px) {
+            width: 40px;
+            height: 40px;
+          }
+
+          @media only screen and (min-width: 360px) {
+            width: 40px;
+            height: 40px;
+            padding: var(--gutter);
+          }
+
+          @media only screen and (max-width: 320px) {
+            width: 35px;
+            height: 35px;
+            padding: var(--gutter);
+            margin-right: 4px;
+          }
+
+          &.icon-twitter {
+            font-size: 39px;
+            &:focus {
+              outline: none;
+            }
+            @media only screen and (min-width: 414px) {
+              font-size: 28px;
+            }
+            @media only screen and (min-width: 360px) {
+              font-size: 28px;
+            }
+
+            @media only screen and (min-width: 320px) {
+              font-size: 25px;
+            }
+            @media only screen and (max-width: 320px) {
+              font-size: 25px;
+            }
+          }
+          &.icon-instagram {
+            font-size: 30px;
+            @media only screen and (min-width: 414px) {
+              font-size: 20px;
+            }
+            @media only screen and (min-width: 360px) {
+              font-size: 22px;
+            }
+
+            @media only screen and (min-width: 320px) {
+              font-size: 20px;
+            }
+            @media only screen and (max-width: 320px) {
+              font-size: 20px;
+            }
+          }
+          &.icon-facebook {
+            font-size: 35px;
+            @media only screen and (min-width: 414px) {
+              font-size: 24px;
+            }
+            @media only screen and (min-width: 360px) {
+              font-size: 25px;
+            }
+
+            @media only screen and (min-width: 320px) {
+              font-size: 22px;
+            }
+            @media only screen and (max-width: 320px) {
+              font-size: 22px;
+            }
+          }
+        }
+
+        .icons {
+          display: flex;
+          margin: 10px;
+          text-decoration: none;
+          align-items: center;
+          justify-content: flex-start;
+          width: 100%;
+          button {
+            padding: 0;
+          }
+        }
+
+        .text {
+          text-align: right;
+          margin-left: 20px;
+          .contact-us {
+            font-family: var(--font-title);
+            font-weight: var(--bold);
+            font-size: 24px/29px;
+            color: var(--four);
+          }
+          .nodeconf-email {
+            font-family: var(--font-subtitle);
+            font-weight: var(--normal);
+            font-size: 24px/41px;
+            color: var(--third);
+            &:hover {
+              color: var(--secondary);
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

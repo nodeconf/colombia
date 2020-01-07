@@ -1,0 +1,90 @@
+.venue-component {
+  &.venue {
+    display: flex;
+    margin: 80px 0;
+   
+    .rutan-image {
+      width: 50%;
+      filter: grayscale(100%);
+      @media only screen and (max-width: 1024px) {
+        width: 100%;
+      }
+
+      .gatsby-image-wrapper {
+        height: 100%;
+      }
+    }
+
+    @media only screen and (max-width: 1024px) {
+      flex-direction: column-reverse;
+      
+      .rutan-image {
+        .gatsby-image-wrapper {
+          max-height: 400px;
+        }
+      }
+    }
+
+    .content {
+      width: 50%;
+      background-color: var(--four);
+      color: var(--p-primary);
+      padding: var(--gutter);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      @media only screen and (max-width: 1024px) {
+        width: 100%;
+      }
+      .title {
+        margin: 0;
+        text-align: left;
+        color: var(--v-primary);
+      }
+      .subtitle {
+        margin: var(--gutter) 0;
+        font-family: var(--font-subtitle);
+        font-weight: var(--semibold);
+        font-size: 28px;
+        color: var(--v-primary);
+        @media only screen and (max-width: 1024px) {
+          font-size: 22px;
+        }
+      }
+      .hotel {
+        width: 250px;
+        @media only screen and (max-width: 1024px) {
+          width: 230px;
+        }
+      }
+      .logo {
+        width: 130px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        @media only screen and (max-width: 1024px) {
+          width: 140px;
+        }
+      }
+
+      .reservation {
+        border: 2px solid var(--primary);
+        background-color: var(--four);
+        font-family: var(--font-subtitle);
+        font-weight: var(--normal);
+        font-size: 16px/26px;
+        color: var(--primary);
+        width: fit-content;
+        cursor: pointer;
+        margin-top: calc(var(--gutter) * 2);
+        margin-bottom: var(--gutter);
+        padding: .3em 1.2em;
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+          background-color: var(--secondary);
+          color: #fff;
+        }
+      }
+    }
+  }
+}

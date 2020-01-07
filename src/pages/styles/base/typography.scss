@@ -1,0 +1,56 @@
+// Convertidor de px a em
+@function em($px){
+    @return ($px / 16px) * 1em;
+}
+
+// Fuente tipográfica, por defecto
+/*
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,500,600,700&display=swap');
+
+$font-title : 'Lato', sans-serif;
+$font-subtitle : 'Montserrat', sans-serif;
+
+
+// tamaño de fuente tipografica 
+$fonts: (
+  title : em(48px),
+  subtitle : em(32px),
+  medium : em(24px),
+  base : em(16px),
+  small : em(12px),
+  smaller : em(10px)
+);
+
+// Font weight
+$normal : 400;
+$semibold : 600;
+$bold : 700;
+
+@mixin font($size) {
+  font-size: map-get($fonts, $size)
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  @include font(base);
+}
+
+.title { 
+  font-family: $font-title;
+  @include font(title); 
+}
+
+.subtitle {
+  font-family: $font-subtitle; 
+  @include font(subtitle); 
+}
+
+.medium { @include font(medium); }
+
+small,
+.small { @include font(small); }
+
+.smaller { @include font(smaller); }
