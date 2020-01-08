@@ -19,7 +19,7 @@ const About = () => (
         target="_blank"
         className="pictures"
         rel="noopener noreferrer"
-      >click here</a>
+      >¡ Click Here !</a>
     </p>
   </section>
 )

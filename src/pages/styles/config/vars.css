@@ -1,25 +1,30 @@
 :root {
-    /* color palette */
-    --primary : #2D9983;
-    --secondary : #258A45;
-    --third : #86A120;
-    --four : #E6D027;
+  /* color palette */
+  --primary: #2d9983;
+  --secondary: #258a45;
+  --third: #86a120;
+  --four: #e6d027;
   /*  Colores variantes */
-    --v-primary : #EBEBEB;
-    --v-secondary : #707070;
+  --v-primary: #ebebeb;
+  --v-secondary: #707070;
   /* Color de parrafo */
-    --p-primary : #121112;
-  
-    /* Typography */
-    --font-title: 'Lato', sans-serif;
-    --font-subtitle: 'Montserrat', sans-serif;
-    /* Weight */
-    --normal : 400;
-    --semibold : 600;
-    --bold : 700;
+  --p-primary: #121112;
 
-    /* Layout */
-    --gutter: 18px;
-    --max-width: 1366px;
-  
-  }
+  /* Typography */
+  --font-title: "Lato", sans-serif;
+  --font-subtitle: "Montserrat", sans-serif;
+  /* Weight */
+  --normal: 400;
+  --semibold: 600;
+  --bold: 700;
+
+  /* Layout */
+  --gutter: 18px;
+  --max-width: 1366px;
+
+}
+/* subrayado rojo <span> */
+.underline {
+  padding: 6px 8px;
+  background-color: var(--primary);
+}
