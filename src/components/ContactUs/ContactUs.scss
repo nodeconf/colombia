@@ -9,6 +9,15 @@
       .title {
         color: var(--four);
         text-align: left;
+        margin-top: 0.5em;
+      }
+
+      .site-2019 {
+        color: var(--primary);
+        font-weight: 500;
+        &:hover {
+          color: var(--v-secondary);
+        }
       }
 
       .email {

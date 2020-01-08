@@ -14,14 +14,19 @@ const ContactUs = () => {
     e.preventDefault();
     const result = await addToMailchimp(email)
     setResult(result)
-    console.log('=============================');
-    console.log(result);
-    console.log('=============================');
   }
 
   return (
     <section className="contact-us-component contact-us  l-container" id="contactUS">
       <div className="stay-tuned  l-inner-p">
+        <a
+          className="site-2019"
+          href="https://2019.nodeconf.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Take a look at NodeConfCO 2019 website
+        </a>
         <h2 className="title  section__title">stay tuned</h2>
         <div className="email">
           <form onSubmit={_handleSubmit}>
