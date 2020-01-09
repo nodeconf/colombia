@@ -1,32 +1,39 @@
 import React, { useState } from "react"
-import addToMailchimp from 'gatsby-plugin-mailchimp'
+import addToMailchimp from "gatsby-plugin-mailchimp"
 
 import "./ContactUs.scss"
 
 const ContactUs = () => {
   const [email, setEmail] = useState("")
   const [result, setResult] = useState({
-    result: '',
-    msg: ''
+    result: "",
+    msg: "",
   })
 
-  const _handleSubmit = async (e) => {
-    e.preventDefault();
+  const _handleSubmit = async e => {
+    e.preventDefault()
     const result = await addToMailchimp(email)
     setResult(result)
   }
 
   return (
-    <section className="contact-us-component contact-us  l-container" id="contactUS">
+    <section
+      className="contact-us-component contact-us  l-container"
+      id="contactUS"
+    >
       <div className="stay-tuned  l-inner-p">
-        <a
-          className="site-2019"
-          href="https://2019.nodeconf.co/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Take a look at NodeConfCO 2019 website
-        </a>
+  
+        <div className="section-tuned__2019">
+          <h3 className="section-tuned__2019-subtitle">Take a look at </h3>
+          <a
+            href="https://2019.nodeconf.co/"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
+            <span className="underline">NodeConfCO 2019</span>
+          </a>
+        </div>
+
         <h2 className="title  section__title">stay tuned</h2>
         <div className="email">
           <form onSubmit={_handleSubmit}>
@@ -43,22 +50,37 @@ const ContactUs = () => {
             ></input>
             <button type="submit">Sign up</button>
           </form>
-          {result.result === 'success' &&
+          {result.result === "success" && (
             <div className="success">{result.msg}</div>
-          }
-          {result.result === 'error' &&
-            <div className="error" dangerouslySetInnerHTML={{__html:result.msg}} />
-          }
+          )}
+          {result.result === "error" && (
+            <div
+              className="error"
+              dangerouslySetInnerHTML={{ __html: result.msg }}
+            />
+          )}
         </div>
         <div className="social">
           <div className="icons">
-            <a href="https://twitter.com/NodeConfCo" target="__blank" aria-label="icon-twitter">
+            <a
+              href="https://twitter.com/NodeConfCo"
+              target="__blank"
+              aria-label="icon-twitter"
+            >
               <i className="social-icon icon-twitter"></i>
             </a>
-            <a href="https://www.instagram.com/nodeconf_co" target="__blank" aria-label="icon-instagram">
+            <a
+              href="https://www.instagram.com/nodeconf_co"
+              target="__blank"
+              aria-label="icon-instagram"
+            >
               <i className="social-icon icon-instagram"></i>
             </a>
-            <a href="https://www.facebook.com/nodeconfco" target="__blank" aria-label="icon-facebook">
+            <a
+              href="https://www.facebook.com/nodeconfco"
+              target="__blank"
+              aria-label="icon-facebook"
+            >
               <i className="social-icon icon-facebook"></i>
             </a>
           </div>
@@ -74,7 +96,6 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
-
     </section>
   )
 }
