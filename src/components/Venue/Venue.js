@@ -39,7 +39,7 @@ const Venue = () => (
         </figure>
       </a>
       <a
-        href="https://reservations.travelclick.com/103293?groupID=2323678"
+        href="https://reservations.travelclick.com/103293?groupID=2732208"
         className="reservation"
         target="__blank"
       >

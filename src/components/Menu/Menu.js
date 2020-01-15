@@ -21,6 +21,13 @@ const Menu = () => {
         </a>
         <a
           className="link-section"
+          href="#tickets"
+          onClick={() => closeMobileMenu()}
+        >
+        Tickets
+        </a>
+        <a
+          className="link-section"
           href="#cfp"
           onClick={() => closeMobileMenu()}
         >
