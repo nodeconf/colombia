@@ -8,7 +8,6 @@ const Tickets = () => (
       <h2 className="section-cfp__title  section__title">Tickets</h2>
       <h3 className="section-tickets__subtittle">We want to meet you!</h3>
     </div>
-
     <div className="inner-wrap-desktop">
       <div className="section-tickets__content-ticket">
         <div className="section-tickets__out-ticket" target="_blank">
