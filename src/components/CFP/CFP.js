@@ -24,7 +24,7 @@ const CFP = () => (
         <div className="date">12 Apr 2020</div>
       </div>
     </div>
-    <div className="text-muted">This event is in SA Pacific Standard Time time zone.</div>
+    <div className="text-muted">This event is in UTC-05:00 - Bogotá, Lima, Quito. Rio Branco time zone.</div>
     <p className="section-cfp__description">
       We want you to be part of NodeConf
     Colombia 2020; We are the first exclusive Node.js conference in

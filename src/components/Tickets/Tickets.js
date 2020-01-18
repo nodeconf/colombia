@@ -13,7 +13,7 @@ const Tickets = () => (
         <div className="section-tickets__out-ticket" target="_blank">
           <div className="section-tickets__info">Second Early Bird Tickets</div>
           {/* <div className="section-tickets__price">$ 100</div> */}
-          <div className="section-tickets__soul">COOMING SOON</div>
+          <div className="section-tickets__soul">COMING SOON</div>
           {/* <a
               href="https://tickets.nodeconf.co/"
               target="_blank"
