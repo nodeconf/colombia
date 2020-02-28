@@ -31,7 +31,7 @@ const CFP = () => (
     Colombia, where community members from around the world come together to
     learn and share information about the latest trends and technologies in
     Node.js development. Apply now. This call for presenters closes at 11:59
-    PM EST on February 28TH, 2020.
+    PM EST on April 12th, 2020.
     </p>
   </section>
 )
