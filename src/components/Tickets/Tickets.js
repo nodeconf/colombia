@@ -11,17 +11,16 @@ const Tickets = () => (
     <div className="inner-wrap-desktop">
       <div className="section-tickets__content-ticket">
         <div className="section-tickets__out-ticket" target="_blank">
-          <div className="section-tickets__info">Second Early Bird Tickets</div>
-          {/* <div className="section-tickets__price">$ 100</div> */}
-          <div className="section-tickets__soul">COMING SOON</div>
-          {/* <a
+          <div className="section-tickets__info">Regular Tickets</div>
+          <div className="section-tickets__price">$ 125</div>
+          <a
               href="https://tickets.nodeconf.co/"
               target="_blank"
               className="submit"
               rel="noopener noreferrer"
             >
               Buy
-            </a> */}
+            </a>
         </div>
       </div>
 

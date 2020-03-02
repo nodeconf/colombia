@@ -80,10 +80,9 @@
     color: var(--primary);
     width: fit-content;
     cursor: pointer;
-    padding: 0.3em 1.2em;
+    padding: 0.3em 1em;
     transition: all 0.3s ease-in-out;
-    
-
+    border-radius: 3px;
     &:hover {
       background-color: rgb(23, 99, 46);
       color: #fff;
